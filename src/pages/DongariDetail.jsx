@@ -7,5 +7,6 @@ export default function DongariDetail() {
     <>
       <p>{params.id}</p>
     </>
-  );
+   );
 }
+  
