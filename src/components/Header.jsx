@@ -10,7 +10,7 @@ export default function Header() {
             to="/"
             style={({ isActive }) => {
               return {
-                textDecoration: isActive ? 'underline' : undefined,
+                textDecoration: isActive ? 'underline 3px' : undefined,
               };
             }}
           >
@@ -22,11 +22,11 @@ export default function Header() {
             to="/intro"
             style={({ isActive }) => {
               return {
-                textDecoration: isActive ? 'underline' : undefined,
+                textDecoration: isActive ? 'underline 3px' : undefined,
               };
             }}
           >
-            동아리소개
+            공연 정보
           </NavLink>
         </li>
         <li>
@@ -34,11 +34,11 @@ export default function Header() {
             to="/booth"
             style={({ isActive }) => {
               return {
-                textDecoration: isActive ? 'underline' : undefined,
+                textDecoration: isActive ? 'underline 3px' : undefined,
               };
             }}
           >
-            동아리부스
+            부스 소개
           </NavLink>
         </li>
         <li>
@@ -46,11 +46,11 @@ export default function Header() {
             to="/about"
             style={({ isActive }) => {
               return {
-                textDecoration: isActive ? 'underline' : undefined,
+                textDecoration: isActive ? 'underline 3px' : undefined,
               };
             }}
           >
-            about
+            제작자
           </NavLink>
         </li>
       </GlobalHeader>

@@ -7,7 +7,7 @@ export const clubs = [
     title: '멋쟁이사자처럼',
     type: 'IT',
     img: likelion,
-    description: '멋사임',
+    description: '아 제발 로또 1등당첨좀',
     activity:
       '매주 1회 필참 파트별 트랙, 자율 스터디, 아이디어톤, 해커톤, 데모데이, 연합해커톤 등등 다양한 IT 주요활동을 경험 할 수 있습니다.',
     representatives: [
