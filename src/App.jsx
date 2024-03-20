@@ -7,10 +7,11 @@ import HomePage from './pages/HomePage';
 import DongariIntro from './pages/DongariIntro';
 import DongariDetail from './pages/DongariDetail';
 import DongariTotal from './pages/DongariTotal';
-
+import Schedule from './pages/schedule';
 const router = createBrowserRouter([
   {
     path: '/',
+<<<<<<< Updated upstream
     element: <RootLayout />,
     children: [
       {
@@ -38,6 +39,33 @@ const router = createBrowserRouter([
         element: <About />,
       },
     ],
+=======
+    element: <HomePage />,
+  },
+  {
+    path: '/intro',
+    element: <DongariIntro />,
+  },
+  {
+    path: '/intro/:dongari',
+    element: <DongariTotal />,
+  },
+  {
+    path: '/intro/:id',
+    element: <DongariDetail />,
+  },
+  {
+    path: '/booth',
+    element: <Booth />,
+  },
+  {
+    path: '/schedule',
+    element: <Schedule />,
+  },
+  {
+    path: '/about',
+    element: <About />,
+>>>>>>> Stashed changes
   },
 ]);
 
