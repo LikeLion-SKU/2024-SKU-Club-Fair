@@ -2,7 +2,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import About from './pages/About';
 import Booth from './pages/Booth';
-import RootLayout from './components/RootLayout';
 import HomePage from './pages/HomePage';
 import DongariIntro from './pages/schedule';
 import DongariDetail from './pages/DongariDetail';
