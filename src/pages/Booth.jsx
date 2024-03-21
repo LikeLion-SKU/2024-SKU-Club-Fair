@@ -19,13 +19,13 @@ export default function Booth() {
       const h = componentRef.current.offsetHeight;
       setHeight(h);
     }
-  });
+  }, [height]);
   return (
     <Container>
       <Header />
       <Map src={map}></Map>
       <ClubListWrapper ref={componentRef}>
-        <h1>동아리 목록</h1>
+        <h3>동아리 목록</h3>
         <ButtonsWrapper>
           {clubs.map((prod) => {
             return (
@@ -35,6 +35,10 @@ export default function Booth() {
                 description={prod.description}
                 img={prod.img}
                 height={height}
+                activity={prod.activity}
+                representatives={prod.representatives}
+                sns={prod.sns}
+                clubinfo={prod.clubinfo}
               />
             );
           })}

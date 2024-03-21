@@ -23,7 +23,7 @@ export const ClubListWrapper = styled.div`
     border-radius: 15px 15px 0 0;
     flex: 1;
     width: 100%;
-    & h1 {
+    & h3 {
       text-align: center;
     }
 `;
@@ -44,8 +44,8 @@ export const ButtonWrapper = styled.div`
 
 export const ClubButton = styled.button`
   @media screen and (max-width: 500px) {
-    width: 80%;
-    margin: 15px auto;
+    width: 90%;
+    margin: 7px auto;
     height: 5em;
     border-radius: 5px;
     background-color: ${({ $color }) => ($color ? '#0099ff' : '#eef0f3')};

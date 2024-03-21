@@ -1,9 +1,37 @@
 import { useState } from 'react';
 import Sheet from 'react-modal-sheet';
+import styled from 'styled-components';
 
+import insta from '../../public/insta.png';
 import { ClubButton, SheetHeader } from '../styles/ClubList';
 
-export default function BoothList({ title, description, img, height }) {
+const CustomSheet = styled(Sheet)`
+  .react-modal-sheet-backdrop {
+    /* custom styles */
+  }
+  .react-modal-sheet-container {
+    /* custom styles */
+  }
+  .react-modal-sheet-header {
+    /* custom styles */
+  }
+  .react-modal-sheet-drag-indicator {
+    /* custom styles */
+  }
+  .react-modal-sheet-content {
+  }
+`;
+
+export default function BoothList({
+  title,
+  description,
+  img,
+  height,
+  activity,
+  representatives,
+  sns,
+  clubinfo,
+}) {
   const [isOpen, setOpen] = useState(false);
   const [clickButton, setClickButton] = useState(false);
   function buttonClickHandler() {
@@ -24,7 +52,7 @@ export default function BoothList({ title, description, img, height }) {
           <p style={{ marginLeft: '10px' }}>{title}</p>
         </div>
       </ClubButton>
-      <Sheet
+      <CustomSheet
         isOpen={isOpen}
         onClose={modalControlHandler}
         snapPoints={[height]}
@@ -32,14 +60,66 @@ export default function BoothList({ title, description, img, height }) {
         <Sheet.Container>
           <Sheet.Header />
           <Sheet.Content>
-            <SheetHeader>
-              <h1>{title}</h1>
-              <p>{description}</p>
-            </SheetHeader>
+            <Sheet.Scroller>
+              <SheetHeader>
+                <div>
+                  <h1 style={{ marginBottom: '5px' }}>{title}</h1>
+                  <p style={{ fontSize: '14px' }}>{description}</p>
+                </div>
+              </SheetHeader>
+              <div style={{ margin: '10px 15px 20px 15px' }}>
+                <div style={{ display: 'flex', marginBottom: '15px' }}>
+                  <p style={{ position: 'relative', flex: '1' }}>주요 활동</p>
+                  <div style={{ textAlign: 'center', flex: '2' }}>
+                    <p>{activity}</p>
+                  </div>
+                </div>
+                <div style={{ display: 'flex', marginBottom: '15px' }}>
+                  <p
+                    style={{
+                      position: 'relative',
+                      flex: '1',
+                    }}
+                  >
+                    지원 문의
+                  </p>
+                  <div style={{ textAlign: 'right', flex: '2' }}>
+                    {representatives.map((prod) => {
+                      return (
+                        <>
+                          <p>{`${prod.part} ${prod.name} ${prod.phone}`}</p>
+                        </>
+                      );
+                    })}
+                    <p>
+                      <img src={insta} />
+                      {sns}
+                    </p>
+                  </div>
+                </div>
+                <div style={{ display: 'flex' }}>
+                  <p style={{ flex: '1' }}>부스컨텐츠</p>
+                  <div style={{ textAlign: 'right', flex: '2' }}>
+                    <p>
+                      메뉴 :
+                      {clubinfo.menu.map((prod) => {
+                        return ` ${prod.name} `;
+                      })}
+                    </p>
+                    <p>
+                      활동 :
+                      {clubinfo.game.map((prod) => {
+                        return ` ${prod.name}, `;
+                      })}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </Sheet.Scroller>
           </Sheet.Content>
         </Sheet.Container>
         <Sheet.Backdrop />
-      </Sheet>
+      </CustomSheet>
     </>
   );
 }
