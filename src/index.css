@@ -1,0 +1,9 @@
+:root {
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+body {
+  margin: 0;
+  width: auto;
+  background-repeat: no-repeat;
+}
