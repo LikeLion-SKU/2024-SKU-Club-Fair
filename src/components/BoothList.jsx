@@ -10,7 +10,7 @@ const CustomSheet = styled(Sheet)`
     /* custom styles */
   }
   .react-modal-sheet-container {
-    /* custom styles */
+    background-color: rgba(255, 255, 255, 0.7) !important;
   }
   .react-modal-sheet-header {
     /* custom styles */
@@ -48,7 +48,7 @@ export default function BoothList({
     <>
       <ClubButton onClick={buttonClickHandler} $color={clickButton}>
         <div style={{ display: 'flex' }}>
-          <img src={img} style={{ width: '50px' }} />
+          {/* <img src={img} style={{ width: '50px' }} /> */}
           <p style={{ marginLeft: '10px' }}>{title}</p>
         </div>
       </ClubButton>

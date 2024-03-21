@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   @media screen and (max-width: 500px) {
-    background-color: #eef0f3;
+    background: url('../public/listBackground.jpg');
     display: flex;
     flex-direction: column;
     height: 100dvh;
@@ -13,13 +13,14 @@ export const Map = styled.img`
   @media screen and (max-width: 500px) {
     display: block;
     height: 40%;
-    width: 100%;
+    width: 85%;
+    margin: auto;
   }
 `;
 
 export const ClubListWrapper = styled.div`
   @media screen and (max-width: 500px) {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 15px 15px 0 0;
     flex: 1;
     width: 100%;
@@ -48,7 +49,8 @@ export const ClubButton = styled.button`
     margin: 7px auto;
     height: 5em;
     border-radius: 5px;
-    background-color: ${({ $color }) => ($color ? '#0099ff' : '#eef0f3')};
+    background-color: ${({ $color }) => ($color ? '#E69696' : '#FDF0EE')};
+    font-family: 'SUIT Variable', sans-serif;
   }
 `;
 
