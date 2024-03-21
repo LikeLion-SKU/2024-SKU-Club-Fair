@@ -1,0 +1,13 @@
+:root {
+  height: calc(var(--vh, 1vh) * 100);
+  
+}
+
+body {
+  margin: 0;
+  background-image: url(image/background.png);
+  background-repeat: no-repeat;
+   
+ 
+  
+}

@@ -1,7 +1,14 @@
+import { Container } from "../styles/ClubList";
+import Button from "../styles/button";
+
+ 
+
 export default function HomePage() {
   return (
-    <>
-      <p>홈페이지임</p>
-    </>
+    <div className="App">
+    Hello React!
+    <div></div>
+   
+  </div>
   );
 }
