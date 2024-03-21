@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "BMJUA";
+    font-weight: normal;
+    font-style: normal;
+    src: url("BMJUA.ttf")
+}
+@font-face {
+    font-family: "NanumGothicBold";
+    font-weight: bold;
+    font-style: normal;
+    src: url("NanumGothicBold.ttf") format("ttf");
+}
