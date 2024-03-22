@@ -10,7 +10,7 @@ export const GlobalDiv = styled.div`
 
 export const GlobalHeaderContainer = styled.div`
   width: 100%;
-  background-color: #eef0f333;
+  background-color: #eef0f3;
 `;
 
 export const GlobalHeader = styled.header`
