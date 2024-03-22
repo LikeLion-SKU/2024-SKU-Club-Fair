@@ -7,7 +7,9 @@ export default function About() {
   return (
     <BgAbout>
       <Header />
-      <Colla />
+      <div style={{height : '40px'}}></div>
+      <img src='/colla.png'></img>
+      <div style={{height : '20px'}}></div>
       <h1>총동연 회장</h1>
       <InfoLine
         name="민동명"
