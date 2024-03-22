@@ -23,7 +23,7 @@ export const Colla = styled.div`
     @media screen and (max-width: 500px) {
         width : 228px;
         height: 78px;
-        marginTop : 20px;
+        margin : 0px 0px;
         background-image: url('/colla.png');
         background-size: contain;
         background-repeat: no-repeat;
