@@ -1,0 +1,26 @@
+:root {
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+body {
+  margin: 0;
+  width: auto;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: "BMJUA";
+  font-weight: normal;
+  font-style: normal;
+  src: url("BMJUA.ttf")
+}
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+.nanumgothic * {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+@font-face {
+  font-family: 'LOTTERIADDAG';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIADDAG.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
