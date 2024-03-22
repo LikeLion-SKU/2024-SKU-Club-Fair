@@ -1,6 +1,7 @@
 import Button from '../components/Button';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Homebutton from '../components/homebutton';
 
 export default function HomePage() {
   return (
@@ -99,7 +100,7 @@ export default function HomePage() {
               </span>
             </button>
           </Link>
-
+          
 
 
 
@@ -371,6 +372,11 @@ export default function HomePage() {
         </Link>
 
       </div>
+      {/* <Homebutton
+            name={'안녕하'}
+            info={'하이요'}
+            src={'인생'}
+          /> */}
     </div>
     </div>
   );
