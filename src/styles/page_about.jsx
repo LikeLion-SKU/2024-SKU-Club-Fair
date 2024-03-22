@@ -23,9 +23,13 @@ export const Colla = styled.div`
     @media screen and (max-width: 500px) {
         width : 228px;
         height: 78px;
-        margin : 40px 0px;
+        margin : 0px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
         background-image: url('/colla.png');
-        background-size: contain;
+        background-size: 100% 100%;
         background-repeat: no-repeat;
     }
 `;
