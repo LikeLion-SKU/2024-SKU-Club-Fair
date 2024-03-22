@@ -79,7 +79,7 @@ export default function HomePage() {
                       fontWeight: 'bold',
                     }}
                   >
-                    각 부스별 위치 확인
+                    각 부스별 위치 확인.
                   </span>
                   <span
                     style={{
