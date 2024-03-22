@@ -19,6 +19,7 @@ const router = createBrowserRouter([
   {
     path: '/intro/:dongari',
     element: <DongariTotal />,
+    
   },
   {
     path: '/intro/:id',
