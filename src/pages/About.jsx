@@ -2,9 +2,13 @@ import Header from '../components/Header';
 import { BgAbout, Colla } from '../styles/page_about';
 import InfoLine from '../components/InfoLine';
 import test from '/logo_lion.png';
-
+import bg from '/bg_info.png';
+import {
+  Container,
+} from '../styles/ClubList';
 export default function About() {
   return (
+    <Container style={{backgroundImage : {bg}}}>
     <BgAbout>
       <Header />
       <div style={{height : '40px'}}></div>
@@ -50,5 +54,6 @@ export default function About() {
         img={test}
       />
     </BgAbout>
+    </Container>
   );
 }
