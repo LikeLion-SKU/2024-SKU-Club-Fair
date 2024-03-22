@@ -31,17 +31,20 @@ export default function BoothList({
   representatives,
   sns,
   clubinfo,
+  listShowHandler,
 }) {
   const [isOpen, setOpen] = useState(false);
   const [clickButton, setClickButton] = useState(false);
   function buttonClickHandler() {
     setClickButton(true);
     setOpen(true);
+    listShowHandler();
   }
 
   function modalControlHandler() {
     setOpen(false);
     setClickButton(false);
+    listShowHandler();
   }
 
   return (

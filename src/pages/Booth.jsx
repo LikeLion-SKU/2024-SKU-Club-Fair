@@ -12,7 +12,13 @@ import { clubs } from '../../clubs';
 
 export default function Booth() {
   const [height, setHeight] = useState(null);
+  const [list, setList] = useState(true);
   const componentRef = useRef(null);
+
+  function listShowHandler() {
+    setList((prev) => !prev);
+    console.log(list);
+  }
 
   useEffect(() => {
     if (componentRef.current) {
@@ -24,7 +30,7 @@ export default function Booth() {
     <Container>
       <Header />
       <Map src={map}></Map>
-      <ClubListWrapper ref={componentRef}>
+      <ClubListWrapper ref={componentRef} $show={list}>
         <h3>동아리 목록</h3>
         <ButtonsWrapper>
           {clubs.map((prod) => {
@@ -39,6 +45,7 @@ export default function Booth() {
                 representatives={prod.representatives}
                 sns={prod.sns}
                 clubinfo={prod.clubinfo}
+                listShowHandler={listShowHandler}
               />
             );
           })}

@@ -4,4 +4,6 @@
 
 body {
   margin: 0;
+  width: auto;
+  background-repeat: no-repeat;
 }
