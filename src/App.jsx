@@ -3,10 +3,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import About from './pages/About';
 import Booth from './pages/Booth';
 import HomePage from './pages/HomePage';
-import DongariIntro from './pages/DongariIntro';
+import DongariIntro from './pages/schedule';
 import DongariDetail from './pages/DongariDetail';
 import DongariTotal from './pages/DongariTotal';
-
+import Schedule from './pages/schedule';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -27,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: '/booth',
     element: <Booth />,
+  },
+  {
+    path: '/schedule',
+    element: <Schedule />,
   },
   {
     path: '/about',

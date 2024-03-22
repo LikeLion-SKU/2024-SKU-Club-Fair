@@ -19,7 +19,7 @@ export default function Header() {
         </li>
         <li>
           <NavLink
-            to="/intro"
+            to="/schedule"
             style={({ isActive }) => {
               return {
                 textDecoration: isActive ? 'underline 3px' : undefined,

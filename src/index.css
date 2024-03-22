@@ -7,3 +7,22 @@ body {
   width: auto;
   background-repeat: no-repeat;
 }
+
+@font-face {
+  font-family: "BMJUA";
+  font-weight: normal;
+  font-style: normal;
+  src: url("BMJUA.ttf")
+}
+@font-face {
+  font-family: "NanumGothicBold";
+  font-weight: bold;
+  font-style: normal;
+  src: url("NanumGothicBold.ttf") format("ttf");
+}
+@font-face {
+  font-family: 'LOTTERIADDAG';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIADDAG.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
