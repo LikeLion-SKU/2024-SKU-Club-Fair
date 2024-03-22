@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function HomePage() {
   return (
-    <div style={{ overflowY: 'auto', height: '100vh' }}>
+    <div style={{ overflowY: 'auto', height: '100dvh' }}>
       <div>
         <div
           style={{
