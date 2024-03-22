@@ -300,151 +300,76 @@ export default function HomePage() {
         />
       </div>
 
-      <div style={{ marginLeft: '15px', marginTop: '20px' }}>
+      <div style={{ marginLeft: '7%', marginTop: '20px' }}>
         <Link
           to="https://www.instagram.com/likelion_skuniv/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none' , marginRight: '5%' }}
+        >
+          <img
+            src="/멋사로고.png"
+            alt="버튼 이미지"
+            style={{ width: 70, height: 75, borderRadius: 10 }}
+          />
+        </Link>
+        <Link
+          to="https://www.instagram.com/juksita_2024/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none' ,marginRight: '5%'}}
+        >
+          <img
+            src="/적시타로고.png"
+            alt="버튼 이미지"
+            style={{ width: 70, height: 75, borderRadius: 10 }}
+          />
+        </Link>
+        <Link
+          to="https://www.instagram.com/sku_pinthree_24/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none',marginRight: '5%' }}
+        >
+          <img
+            src="/핀쓰리로고.png"
+            alt="버튼 이미지"
+            style={{ width: 70, height: 75, borderRadius: 10 }}
+          />
+        </Link>
+
+        <Link
+          to="https://www.instagram.com/sk_ubf/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none',marginRight: '5%' }}
+        >
+          <img
+            src="/ubf로고.png"
+            alt="버튼 이미지"
+            style={{ width: 70, height: 75, borderRadius: 10 }}
+          />
+        </Link>
+       
+       
+
+
+      
+      </div>
+      <div style={{marginLeft: '7%', marginTop: '20px' }}>
+      <Link
+          to="https://www.instagram.com/sku_ccc/"
           target="_blank"
           rel="noopener noreferrer"
           style={{ textDecoration: 'none' }}
         >
           <img
-            src="/likelion.jpg"
+            src="/ccc.png"
             alt="버튼 이미지"
             style={{ width: 70, height: 75, borderRadius: 10 }}
           />
         </Link>
-        <button
-          style={{
-            width: 70,
-            height: 75,
-            background: 'white',
-            borderRadius: 10,
-            marginLeft: '5px',
-          }}
-        />
-        <button
-          style={{
-            width: 70,
-            height: 75,
-            background: 'white',
-            borderRadius: 10,
-            marginLeft: '5px',
-          }}
-        />
 
-        <button
-          style={{
-            width: 70,
-            height: 75,
-            background: 'white',
-            borderRadius: 10,
-            marginLeft: '5px',
-          }}
-        />
-
-        <button
-          style={{
-            width: 70,
-            height: 75,
-            background: 'white',
-            borderRadius: 10,
-            marginLeft: '5px',
-          }}
-        />
-
-        <button
-          style={{
-            width: 70,
-            height: 75,
-            background: 'white',
-            borderRadius: 10,
-          }}
-        />
-        <button
-          style={{
-            width: 70,
-            height: 75,
-            background: 'white',
-            borderRadius: 10,
-            marginLeft: '5px',
-          }}
-        />
-        <button
-          style={{
-            width: 70,
-            height: 75,
-            background: 'white',
-            borderRadius: 10,
-            marginLeft: '5px',
-          }}
-        />
-
-        <button
-          style={{
-            width: 70,
-            height: 75,
-            background: 'white',
-            borderRadius: 10,
-            marginLeft: '5px',
-          }}
-        />
-
-        <button
-          style={{
-            width: 70,
-            height: 75,
-            background: 'white',
-            borderRadius: 10,
-            marginLeft: '5px',
-          }}
-        />
-
-        <button
-          style={{
-            width: 70,
-            height: 75,
-            background: 'white',
-            borderRadius: 10,
-          }}
-        />
-        <button
-          style={{
-            width: 70,
-            height: 75,
-            background: 'white',
-            borderRadius: 10,
-            marginLeft: '5px',
-          }}
-        />
-        <button
-          style={{
-            width: 70,
-            height: 75,
-            background: 'white',
-            borderRadius: 10,
-            marginLeft: '5px',
-          }}
-        />
-
-        <button
-          style={{
-            width: 70,
-            height: 75,
-            background: 'white',
-            borderRadius: 10,
-            marginLeft: '5px',
-          }}
-        />
-
-        <button
-          style={{
-            width: 70,
-            height: 75,
-            background: 'white',
-            borderRadius: 10,
-            marginLeft: '5px',
-          }}
-        />
       </div>
     </div>
     </div>
