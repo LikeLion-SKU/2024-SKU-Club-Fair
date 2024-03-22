@@ -10,7 +10,9 @@ export default function Header() {
             to="/"
             style={({ isActive }) => {
               return {
-                textDecoration: isActive ? 'underline 3px' : undefined,
+                textDecoration: isActive
+                  ? 'line-through 1px double'
+                  : undefined,
               };
             }}
           >
@@ -19,10 +21,12 @@ export default function Header() {
         </li>
         <li>
           <NavLink
-            to="/intro"
+            to="/schedule"
             style={({ isActive }) => {
               return {
-                textDecoration: isActive ? 'underline 3px' : undefined,
+                textDecoration: isActive
+                  ? 'line-through 1px double'
+                  : undefined,
               };
             }}
           >
@@ -34,7 +38,9 @@ export default function Header() {
             to="/booth"
             style={({ isActive }) => {
               return {
-                textDecoration: isActive ? 'underline 3px' : undefined,
+                textDecoration: isActive
+                  ? 'line-through 2px double'
+                  : undefined,
               };
             }}
           >
@@ -46,7 +52,9 @@ export default function Header() {
             to="/about"
             style={({ isActive }) => {
               return {
-                textDecoration: isActive ? 'underline 3px' : undefined,
+                textDecoration: isActive
+                  ? 'line-through 2px double'
+                  : undefined,
               };
             }}
           >
