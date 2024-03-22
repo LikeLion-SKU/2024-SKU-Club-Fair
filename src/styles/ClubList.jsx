@@ -24,7 +24,7 @@ export const ClubListWrapper = styled.div`
     border-radius: 15px 15px 0 0;
     flex: 1;
     width: 100%;
-    visibility: ${({ $list }) => ($list ? 'hidden' : 'visible')};
+    visibility: ${({ $show }) => ($show ? 'visible' : 'hidden')};
     & h3 {
       text-align: center;
     }
