@@ -2,17 +2,17 @@ import styled from 'styled-components';
 export const BgSchedule = styled.div`
     @media screen and (max-width: 500px) {
         width : 100%;
-        height: 100dvh;
+        height: auto;
         display: flex;
         flex-direction: column;
-        background-color :cadetblue;
         align-items: center;
-        background-image: url('/public/bg_info.png');
+        background-image: url('/bg_info.png');
         background-size: cover;
         background-repeat: repeat-y;
         background-attachment: fixed;
+        background-position: top center;
         h1{
-            fontFamily: 'LOTTELIA_DDAG';
+            font-family: 'LOTTERIADDAG', sans-serif;
             font-size: 36px;
         }
     }
@@ -20,7 +20,7 @@ export const BgSchedule = styled.div`
 export const ScheduleBox = styled.div`
     @media screen and (max-width: 500px) {
         display: flex;
-        width: auto;
+        width: 90%;
         height: auto;
         background-color: #fff5f57e;
         mix-blend-mode: multiply;
@@ -31,6 +31,8 @@ export const ScheduleBox = styled.div`
         padding-bottom: 40px;
         border-radius: 15px;
         border: 1px solid black;
+        font-family: 'SUIT Variable', sans-serif;
+        font-style: bold;
         hr {
             border: none;
             border-top: 2px dashed #50A65D;
