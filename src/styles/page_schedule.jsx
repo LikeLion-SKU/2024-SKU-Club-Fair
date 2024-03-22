@@ -42,7 +42,7 @@ export const ScheduleBox = styled.div`
             width: 90%;
         }
         p{
-            fontFamily: 'NanumGothicBold'l
+            font-weight: 600;
         }
 }
 `;

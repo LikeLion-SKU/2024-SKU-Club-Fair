@@ -14,11 +14,9 @@ body {
   font-style: normal;
   src: url("BMJUA.ttf")
 }
-@font-face {
-  font-family: "NanumGothicBold";
-  font-weight: bold;
-  font-style: normal;
-  src: url("NanumGothicBold.ttf") format("ttf");
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+.nanumgothic * {
+  font-family: 'Nanum Gothic', sans-serif;
 }
 @font-face {
   font-family: 'LOTTERIADDAG';
