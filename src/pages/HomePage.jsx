@@ -39,123 +39,106 @@ export default function HomePage() {
 
           <div
             style={{
+              margin: 'auto',
               marginTop: '170px',
-              marginLeft: '5px',
-              position: 'relative',
             }}
           >
-            <Link to="/booth" style={{ textDecoration: 'none' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
               <button
                 style={{
-                  width: 181,
+                  width: '45%',
                   height: 108,
-                  backgroundColor: '#FDF0EE',
-                  border: 'none',
-                  borderRadius: 15,
-                  border: '1px black solid',
-                }}
-              >
-                <span
-                  style={{
-                    position: 'absolute',
-                    top: '0',
-                    left: '0',
-                    marginLeft: '15px',
-                    marginTop: '10px',
-                    color: 'black',
-                    fontSize: '22px',
-                    fontFamily: 'Arial, sans-serif',
-                    fontWeight: 'bold',
-                  }}
-                >
-                  부스소개
-                </span>
-                <span
-                  style={{
-                    position: 'absolute',
-                    top: '30px',
-                    left: '0',
-                    marginLeft: '15px',
-                    marginTop: '10px',
-                    color: 'black',
-                    fontSize: '15px',
-                    fontFamily: 'Arial, sans-serif',
-                    fontWeight: 'bold',
-                  }}
-                >
-                  각 부스별 위치 확인
-                </span>
-                <span
-                  style={{
-                    position: 'absolute',
-                    top: '50px',
-                    left: '0',
-                    marginLeft: '140px',
-                    marginTop: '10px',
-                    fontSize: '30px',
-                  }}
-                >
-                  ⛺️
-                </span>
-              </button>
-            </Link>
-
-            <Link to="/intro" style={{ textDecoration: 'none' }}>
-              <button
-                style={{
-                  width: 181,
-                  height: 108,
-                  backgroundColor: '#FDF0EE',
-                  border: 'none',
-                  borderRadius: 15,
-                  border: '1px black solid',
                   marginLeft: '15px',
+                  backgroundColor: '#FDF0EE',
+                  border: 'none',
+                  borderRadius: 15,
+                  border: '1px black solid',
                 }}
               >
-                <span
-                  style={{
-                    position: 'absolute',
-                    top: '0',
-                    left: '0',
-                    marginLeft: '210px',
-                    marginTop: '10px',
-                    color: 'black',
-                    fontSize: '22px',
-                    fontFamily: 'Arial, sans-serif',
-                    fontWeight: 'bold',
-                  }}
-                >
-                  운영시간
-                </span>
-                <span
-                  style={{
-                    position: 'absolute',
-                    top: '30px',
-                    left: '0',
-                    marginLeft: '210px',
-                    marginTop: '10px',
-                    color: 'black',
-                    fontSize: '15px',
-                    fontFamily: 'Arial, sans-serif',
-                    fontWeight: 'bold',
-                  }}
-                >
-                  행사 일정 안내
-                </span>
-                <span
-                  style={{
-                    position: 'absolute',
-                    top: '50px',
-                    left: '0',
-                    marginLeft: '330px',
-                    marginTop: '10px',
-                    fontSize: '30px',
-                  }}
-                >
-                  ⏰
-                </span>
+                <Link to="/booth" style={{ textDecoration: 'none' }}>
+                  <span
+                    style={{
+                      marginRight: '40%',
+                      display: 'block',
+                      color: 'black',
+                      fontSize: '22px',
+                      fontFamily: 'Arial, sans-serif',
+                      fontWeight: 'bold',
+                    }}
+                  >
+                    부스소개
+                  </span>
+                  <span
+                    style={{
+                      width: '85%',
+                      marginRight: '33%',
+                      display: 'block',
+                      color: 'black',
+                      fontSize: '15px',
+                      fontFamily: 'Arial, sans-serif',
+                      fontWeight: 'bold',
+                    }}
+                  >
+                    각 부스별 위치 확인
+                  </span>
+                  <span
+                    style={{
+                      marginLeft: '75%',
+                      fontSize: '30px',
+                    }}
+                  >
+                    ⛺️
+                  </span>
+                </Link>
               </button>
-            </Link>
+
+              <button
+                style={{
+                  width: '45%',
+                  height: 108,
+                  backgroundColor: '#FDF0EE',
+                  border: 'none',
+                  borderRadius: 15,
+                  border: '1px black solid',
+                  marginRight: '15px',
+                }}
+              >
+                <Link to="/intro" style={{ textDecoration: 'none' }}>
+                  <span
+                    style={{
+                      marginRight: '40%',
+                      display: 'block',
+                      color: 'black',
+                      fontSize: '22px',
+                      fontFamily: 'Arial, sans-serif',
+                      fontWeight: 'bold',
+                    }}
+                  >
+                    운영시간
+                  </span>
+                  <span
+                    style={{
+                      marginRight: '33%',
+                      display: 'block',
+                      color: 'black',
+                      fontSize: '15px',
+                      fontFamily: 'Arial, sans-serif',
+                      fontWeight: 'bold',
+                    }}
+                  >
+                    행사 일정 안내
+                  </span>
+                  <span
+                    style={{
+                      marginLeft: '75%',
+                      fontSize: '30px',
+                    }}
+                  >
+                    ⏰
+                  </span>
+                </Link>
+              </button>
+            </div>
 
             <Link
               to="https://regal-gelato-25faff.netlify.app"
