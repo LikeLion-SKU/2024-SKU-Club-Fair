@@ -11,7 +11,7 @@ export default function HomePage() {
             style={{
               textAlign: 'center',
               marginTop: '215px',
-              marginLeft: '30px',
+              paddingLeft: '10%',
             }}
           >
             <img
@@ -21,7 +21,8 @@ export default function HomePage() {
             />
           </div>
 
-          <div style={{ marginTop: '180px' }}>
+          <div style={{ marginTop: '180px' ,
+         paddingLeft: '10%',}}>
             <img
               src="/img/date.png"
               alt="내 이미지"
@@ -29,7 +30,7 @@ export default function HomePage() {
             />
           </div>
 
-          <div style={{ marginTop: '100px' }}>
+          <div style={{ marginTop: '100px' , paddingLeft: '10%',}}>
             <img
               src="/img/scroll.png"
               alt="내 이미지"
@@ -40,7 +41,8 @@ export default function HomePage() {
           <div
             style={{
               margin: 'auto',
-              marginTop: '170px',
+              marginTop: '20%',
+              
             }}
           >
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
@@ -48,7 +50,7 @@ export default function HomePage() {
                 style={{
                   width: '45%',
                   height: 108,
-                  marginLeft: '15px',
+                  marginLeft: '5%',
                   backgroundColor: '#FDF0EE',
                   border: 'none',
                   borderRadius: 15,
@@ -70,8 +72,8 @@ export default function HomePage() {
                   </span>
                   <span
                     style={{
-                      width: '85%',
-                      marginRight: '33%',
+                      width: '90%',
+                     
                       display: 'block',
                       color: 'black',
                       fontSize: '15px',
@@ -79,7 +81,7 @@ export default function HomePage() {
                       fontWeight: 'bold',
                     }}
                   >
-                    각 부스별 위치 확인.
+                    각 부스별 위치 확인
                   </span>
                   <span
                     style={{
@@ -101,6 +103,8 @@ export default function HomePage() {
                   borderRadius: 15,
                   border: '1px black solid',
                   marginRight: '15px',
+                  marginLeft: '5%',
+                 
                 }}
               >
                 <Link to="/intro" style={{ textDecoration: 'none' }}>
@@ -140,6 +144,7 @@ export default function HomePage() {
               </button>
             </div>
 
+            <div style={{ display: 'flex',flex:'3'}}>
             <Link
               to="https://regal-gelato-25faff.netlify.app"
               target="_blank"
@@ -148,47 +153,50 @@ export default function HomePage() {
             >
               <button
                 style={{
-                  width: 381,
+                  width: '165%',
                   height: 108,
                   backgroundColor: '#FDF0EE',
                   border: 'none',
                   borderRadius: 15,
                   border: '1px black solid',
-                  marginLeft: '0px',
+                  marginLeft: '8%',
                   marginTop: '20px',
+                  display: 'flex', flexDirection: 'column'
                 }}
               >
                 <span
                   style={{
-                    position: 'absolute',
-                    marginTop: '-40px',
-                    marginLeft: '-170px',
+                   
+                    marginTop: '3%',
+                    marginLeft: '2%',
                     color: 'black',
                     fontSize: '22px',
                     fontFamily: 'Arial, sans-serif',
                     fontWeight: 'bold',
+                   
                   }}
                 >
                   유형 테스트
                 </span>
                 <span
                   style={{
-                    position: 'absolute',
-                    marginTop: '-13px',
-                    marginLeft: '-170px',
+                    
+                    
+                    marginLeft: '2%',
                     color: 'black',
                     fontSize: '15px',
                     fontFamily: 'Arial, sans-serif',
                     fontWeight: 'bold',
+                  
                   }}
                 >
                   나에게 꼭 맞는 동아리를 찾아봐!
                 </span>
                 <span
                   style={{
-                    position: 'absolute',
-                    marginTop: '5px',
-                    marginLeft: '150px',
+                
+                    
+                    marginLeft: '90%',
                     color: 'black',
                     fontSize: '30px',
                     fontFamily: 'Arial, sans-serif',
@@ -199,11 +207,17 @@ export default function HomePage() {
                 </span>
               </button>
             </Link>
+                  </div>
 
-            <Link to="/about" style={{ textDecoration: 'none' }}>
-              <button
+
+
+
+
+
+                  <div>
+                <button
                 style={{
-                  width: 181,
+                  width: '40%',
                   height: 67,
                   backgroundColor: '#FDF0EE',
                   border: 'none',
@@ -213,11 +227,12 @@ export default function HomePage() {
                   marginTop: '20px',
                 }}
               >
+                <Link to="/about" style={{ textDecoration: 'none' }}>
                 <span
                   style={{
-                    position: 'absolute',
-                    marginTop: '-10px',
-                    marginLeft: '-75px',
+                    
+                
+                    paddingLeft: '-5%',
                     color: 'black',
                     fontSize: '22px',
                     fontFamily: 'Arial, sans-serif',
@@ -228,9 +243,9 @@ export default function HomePage() {
                 </span>
                 <span
                   style={{
-                    position: 'absolute',
-                    marginTop: '-20px',
-                    marginLeft: '50px',
+                    
+                   
+                    paddingLeft: '20%',
                     color: 'black',
                     fontSize: '30px',
                     fontFamily: 'Arial, sans-serif',
@@ -239,8 +254,16 @@ export default function HomePage() {
                 >
                   ‍🧑‍💻
                 </span>
+                </Link>
+                
               </button>
-            </Link>
+              </div>
+              
+
+
+         
+
+           
           </div>
         </div>
 
@@ -273,14 +296,14 @@ export default function HomePage() {
               height: 36,
               left: 0,
               top: 0,
-              position: 'absolute',
+            
               borderRadius: 17,
               border: '1px #45392F solid',
             }}
           />
         </div>
 
-        <div style={{ marginLeft: '7%', marginTop: '20px' }}>
+        <div style={{ paddingLeft: '5%', paddingTop: '20px' }}>
           <Link
             to="https://www.instagram.com/likelion_skuniv/"
             target="_blank"
@@ -290,7 +313,7 @@ export default function HomePage() {
             <img
               src="/멋사로고.png"
               alt="버튼 이미지"
-              style={{ width: 70, height: 75, borderRadius: 10 }}
+              style={{ width: '20%', height: 75, borderRadius: 10 }}
             />
           </Link>
           <Link
@@ -302,7 +325,7 @@ export default function HomePage() {
             <img
               src="/적시타로고.png"
               alt="버튼 이미지"
-              style={{ width: 70, height: 75, borderRadius: 10 }}
+              style={{ width: '20%', height: 75, borderRadius: 10 }}
             />
           </Link>
           <Link
@@ -314,7 +337,7 @@ export default function HomePage() {
             <img
               src="/핀쓰리로고.png"
               alt="버튼 이미지"
-              style={{ width: 70, height: 75, borderRadius: 10 }}
+              style={{ width: '20%', height: 75, borderRadius: 10 }}
             />
           </Link>
 
@@ -327,11 +350,14 @@ export default function HomePage() {
             <img
               src="/ubf로고.png"
               alt="버튼 이미지"
-              style={{ width: 70, height: 75, borderRadius: 10 }}
+              style={{ width: '20%', height: 75, borderRadius: 10 }}
             />
           </Link>
         </div>
-        <div style={{ marginLeft: '7%', marginTop: '20px' }}>
+
+
+
+        <div style={{ marginLeft: '5%', marginTop: '20px' }}>
           <Link
             to="https://www.instagram.com/sku_ccc/"
             target="_blank"
@@ -341,10 +367,137 @@ export default function HomePage() {
             <img
               src="/ccc.png"
               alt="버튼 이미지"
-              style={{ width: 70, height: 75, borderRadius: 10 }}
+              style={{ width: '20%', height: 75, borderRadius: 10 }}
+            />
+          </Link>
+
+          <Link
+            to="https://www.instagram.com/sku_workers/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none', marginLeft: '5%' }}
+          >
+            <img
+              src="/club-0-1.png"
+              alt="버튼 이미지"
+              style={{ width: '20%', height: 75, borderRadius: 10 }}
+            />
+          </Link>
+          <Link
+            to="https://www.instagram.com/gramy._.official/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none', marginLeft: '5%' }}
+          >
+            <img
+              src="/club-0-2.png"
+              alt="버튼 이미지"
+              style={{ width: '20%', height: 75, borderRadius: 10 }}
+            />
+          </Link>
+          <Link
+            to="https://www.instagram.com/udream.sku/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none', marginLeft: '5%' }}
+          >
+            <img
+              src="/club-0-3.png"
+              alt="버튼 이미지"
+              style={{ width: '20%', height: 75, borderRadius: 10 }}
             />
           </Link>
         </div>
+        
+
+
+
+        <div style={{ marginLeft: '5%', marginTop: '20px' }}>
+          <Link
+            to="https://www.instagram.com/sdr.official_/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none' }}
+          >
+            <img
+              src="/club-0-4.png"
+              alt="버튼 이미지"
+              style={{ width: '20%', height: 75, borderRadius: 10 }}
+            />
+          </Link>
+
+          <Link
+            to="https://www.instagram.com/oz_sku/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none', marginLeft: '5%' }}
+          >
+            <img
+              src="/club-3-1.png"
+              alt="버튼 이미지"
+              style={{ width: '20%', height: 75, borderRadius: 10 }}
+            />
+          </Link>
+          <Link
+            to="https://www.instagram.com/sku_ivf/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none', marginLeft: '5%' }}
+          >
+            <img
+              src="/club-4-2.png"
+              alt="버튼 이미지"
+              style={{ width: '20%', height: 75, borderRadius: 10 }}
+            />
+          </Link>
+          <Link
+            to="https://www.instagram.com/sku_bulls/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none', marginLeft: '5%' }}
+          >
+            <img
+             src="/club-5-.png"
+              alt="버튼 이미지"
+              style={{ width: '20%', height: 75, borderRadius: 10 }}
+            />
+          </Link>
+        </div>
+
+
+
+
+
+        <div style={{ marginLeft: '5%', marginTop: '20px' }}>
+          <Link
+            to="https://www.instagram.com/brandingclub_official/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none' }}
+          >
+            <img
+              src="/club-5-2.png"
+              alt="버튼 이미지"
+              style={{ width: '20%', height: 75, borderRadius: 10 }}
+            />
+          </Link>
+
+          <Link
+            to="https://www.instagram.com/sku_yeonji/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none', marginLeft: '5%' }}
+          >
+            <img
+              src="/club-5-6.png"
+              alt="버튼 이미지"
+              style={{ width: '20%', height: 75, borderRadius: 10 }}
+            />
+          </Link>
+          
+        </div>
+
+
       </div>
     </div>
   );
