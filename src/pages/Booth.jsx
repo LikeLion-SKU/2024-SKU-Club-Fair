@@ -31,7 +31,7 @@ export default function Booth() {
       <Header />
       <Map src={map}></Map>
       <ClubListWrapper ref={componentRef} $show={list}>
-        <h3>동아리 목록</h3>
+        <h3 style={{ fontFamily: 'LOTTERIADDAG' }}>동아리 목록</h3>
         <ButtonsWrapper>
           {clubs.map((prod) => {
             return (

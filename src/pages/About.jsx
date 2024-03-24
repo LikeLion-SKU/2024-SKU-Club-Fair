@@ -2,9 +2,14 @@ import Header from '../components/Header';
 import { BgAbout, Colla } from '../styles/page_about';
 import InfoLine from '../components/InfoLine';
 import test from '/logo_lion.png';
-
+import test2 from '/test1.jpg';
+import bg from '/bg_info.png';
+import {
+  Container,
+} from '../styles/ClubList';
 export default function About() {
   return (
+    <Container style={{backgroundImage : {bg}}}>
     <BgAbout>
       <Header />
       <div style={{height : '40px'}}></div>
@@ -15,7 +20,7 @@ export default function About() {
         name="민동명"
         info="컴퓨터공학과 22"
         src="example@example.com"
-        img={test}
+        img={test2}
       />
       <h1>DESIGN</h1>
       <InfoLine
@@ -50,5 +55,6 @@ export default function About() {
         img={test}
       />
     </BgAbout>
+    </Container>
   );
 }
