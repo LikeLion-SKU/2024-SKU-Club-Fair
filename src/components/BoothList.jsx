@@ -35,24 +35,35 @@ export default function BoothList({
   sns,
   clubinfo,
   listShowHandler,
+  mapHandler,
+  value,
+  defaultvalue,
 }) {
   const [isOpen, setOpen] = useState(false);
   const [clickButton, setClickButton] = useState(false);
-  function buttonClickHandler() {
+
+  function buttonClickHandler(e) {
     setClickButton(true);
     setOpen(true);
     listShowHandler();
+    mapHandler(value);
   }
 
   function modalControlHandler() {
     setOpen(false);
     setClickButton(false);
     listShowHandler();
+    mapHandler(defaultvalue);
   }
 
   return (
     <>
-      <ClubButton onClick={buttonClickHandler} $color={clickButton}>
+      <ClubButton
+        onClick={buttonClickHandler}
+        $color={clickButton}
+        type="button"
+        value="2"
+      >
         <div style={{ display: 'flex' }}>
           {/* <img src={img} style={{ width: '50px' }} /> */}
           <p style={{ marginLeft: '10px', fontFamily: 'SUIT Variable' }}>
