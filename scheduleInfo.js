@@ -53,7 +53,7 @@ export const scheduleInfo = [
     sns: '인스타그램 (@likelion_skuniv)',
   },{
     id: '8',
-    name: '워커스',
+    name: 'WORKERS',
     time: '16:30~17:20',
     img: workers,
     sns: '인스타그램 (@likelion_skuniv)',
