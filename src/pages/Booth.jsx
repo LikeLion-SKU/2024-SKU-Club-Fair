@@ -33,7 +33,7 @@ export default function Booth() {
       const h = componentRef.current.offsetHeight;
       setHeight(h);
     }
-  }, [height]);
+  }, []);
   return (
     <Container>
       <Header />
