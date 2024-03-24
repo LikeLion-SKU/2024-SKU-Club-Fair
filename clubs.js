@@ -1,20 +1,20 @@
 import likelion from './public/likelion.jpg';
 import test1 from './public/test1.jpg';
-import map1 from './public/map/1.png';
-import map2 from './public/map/2.png';
-import map3 from './public/map/3.png';
-import map4 from './public/map/4.png';
-import map5 from './public/map/5.png';
-import map6 from './public/map/6.png';
-import map7 from './public/map/7.png';
-import map8 from './public/map/8.png';
-import map9 from './public/map/9.png';
-import map10 from './public/map/10.png';
-import map11 from './public/map/11.png';
-import map12 from './public/map/12.png';
-import map13 from './public/map/13.png';
-import map14 from './public/map/14.png';
-import map15 from './public/map/15.png';
+import map1 from './public/map/1.svg';
+import map2 from './public/map/2.svg';
+import map3 from './public/map/3.svg';
+import map4 from './public/map/4.svg';
+import map5 from './public/map/5.svg';
+import map6 from './public/map/6.svg';
+import map7 from './public/map/7.svg';
+import map8 from './public/map/8.svg';
+import map9 from './public/map/9.svg';
+import map10 from './public/map/10.svg';
+import map11 from './public/map/11.svg';
+import map12 from './public/map/12.svg';
+import map13 from './public/map/13.svg';
+import map14 from './public/map/14.svg';
+import map15 from './public/map/15.svg';
 
 export const clubs = [
   {

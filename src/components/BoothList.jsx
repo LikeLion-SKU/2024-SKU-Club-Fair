@@ -3,7 +3,7 @@ import Sheet from 'react-modal-sheet';
 import styled from 'styled-components';
 
 import insta from '../../public/insta.png';
-import { ClubButton, SheetHeader } from '../styles/ClubList';
+import { ClubButton, Map, SheetHeader } from '../styles/ClubList';
 import { Link } from 'react-router-dom';
 
 const CustomSheet = styled(Sheet)`
@@ -58,15 +58,16 @@ export default function BoothList({
 
   return (
     <>
-      <ClubButton
-        onClick={buttonClickHandler}
-        $color={clickButton}
-        type="button"
-        value="2"
-      >
+      <ClubButton onClick={buttonClickHandler} $color={clickButton}>
         <div style={{ display: 'flex' }}>
           {/* <img src={img} style={{ width: '50px' }} /> */}
-          <p style={{ marginLeft: '10px', fontFamily: 'SUIT Variable' }}>
+          <p
+            style={{
+              marginLeft: '10px',
+              fontFamily: 'SUIT Variable',
+              color: 'black',
+            }}
+          >
             {title}
           </p>
         </div>
@@ -93,6 +94,7 @@ export default function BoothList({
                 </div>
               </SheetHeader>
               <div style={{ margin: '10px 15px 20px 15px' }}>
+                <Map src={value} />
                 <div style={{ display: 'flex', marginBottom: '15px' }}>
                   <p
                     style={{
