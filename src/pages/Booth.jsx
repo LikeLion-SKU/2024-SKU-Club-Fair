@@ -57,6 +57,7 @@ export default function Booth() {
                 mapHandler={mapHandler}
                 value={prod.map}
                 defaultvalue={map}
+                type={prod.type}
               />
             );
           })}

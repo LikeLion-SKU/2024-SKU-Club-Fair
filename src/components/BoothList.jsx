@@ -38,6 +38,7 @@ export default function BoothList({
   mapHandler,
   value,
   defaultvalue,
+  type,
 }) {
   const [isOpen, setOpen] = useState(false);
   const [clickButton, setClickButton] = useState(false);
@@ -66,10 +67,12 @@ export default function BoothList({
               marginLeft: '10px',
               fontFamily: 'SUIT Variable',
               color: 'black',
+              width: '40%',
             }}
           >
             {title}
           </p>
+          <p style={{ marginLeft: '30%' }}>{type}</p>
         </div>
       </ClubButton>
       <CustomSheet
