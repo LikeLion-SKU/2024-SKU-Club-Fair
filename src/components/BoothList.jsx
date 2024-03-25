@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import insta from '../../public/insta.png';
 import { ClubButton, Map, SheetHeader } from '../styles/ClubList';
 import { Link } from 'react-router-dom';
+import { clubs } from '../../clubs';
 
 const CustomSheet = styled(Sheet)`
   .react-modal-sheet-backdrop {
@@ -58,6 +59,12 @@ export default function BoothList({
     mapHandler(defaultvalue);
   }
 
+  function menu() {
+    if (clubinfo.menu[0].name !== '없음') {
+      return '메뉴 : ';
+    }
+  }
+
   return (
     <>
       <ClubButton onClick={buttonClickHandler} $color={clickButton}>
@@ -89,11 +96,21 @@ export default function BoothList({
               <SheetHeader>
                 <div>
                   <h1
-                    style={{ marginBottom: '5px', fontFamily: 'SUIT Variable' }}
+                    style={{
+                      marginBottom: '5px',
+                      fontFamily: 'SUIT Variable',
+                      marginBottom: '8%',
+                    }}
                   >
                     {title}
                   </h1>
-                  <p style={{ fontSize: '14px', fontFamily: 'SUIT Variable' }}>
+                  <p
+                    style={{
+                      fontSize: '14px',
+                      fontFamily: 'SUIT Variable',
+                      marginBottom: '8%',
+                    }}
+                  >
                     {description}
                   </p>
                 </div>
@@ -112,7 +129,14 @@ export default function BoothList({
                     주요 활동
                   </p>
                   <div style={{ textAlign: 'center', flex: '2' }}>
-                    <p style={{ fontFamily: 'SUIT Variable' }}>{activity}</p>
+                    <p
+                      style={{
+                        fontFamily: 'SUIT Variable',
+                        textAlign: 'right',
+                      }}
+                    >
+                      {activity}
+                    </p>
                   </div>
                 </div>
                 <div style={{ display: 'flex', marginBottom: '15px' }}>
@@ -136,10 +160,6 @@ export default function BoothList({
                         </>
                       );
                     })}
-                    <p>
-                      <img src={insta} />
-                      {sns}
-                    </p>
                   </div>
                 </div>
                 <div style={{ display: 'flex' }}>
@@ -154,9 +174,14 @@ export default function BoothList({
                   </p>
                   <div style={{ textAlign: 'right', flex: '2' }}>
                     <p style={{ fontFamily: 'SUIT Variable' }}>
-                      메뉴 :
+                      {menu()}
                       {clubinfo.menu.map((prod) => {
-                        return ` ${prod.name} `;
+                        if (prod.name === '없음') {
+                          return;
+                        } else {
+                          let menu;
+                          return `${prod.name} `;
+                        }
                       })}
                     </p>
                     <p style={{ fontFamily: 'SUIT Variable' }}>

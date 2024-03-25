@@ -50,7 +50,8 @@ export const ClubButton = styled.button`
     margin: 7px auto;
     height: 5em;
     border-radius: 5px;
-    background-color: ${({ $color }) => ($color ? '#E69696' : '#FDF0EE')};
+    background-color: ${({ $color }) =>
+      $color ? '#E69696' : 'rgb(253, 240, 238)'};
     font-family: 'SUIT Variable', sans-serif;
   }
 `;
