@@ -36,9 +36,8 @@ export default function InfoLine({ name, src, img, info }) {
         </div>
         <p
           style={{
-            width: '80%',
+            paddingLeft: '20px',
             fontFamily: 'BMJUA',
-            marginLeft: '10%',
             margin: '0',
             fontSize: '3vw',
           }}
