@@ -8,7 +8,7 @@ export default function InfoLine({ name, src, img ,info})
                 <p style={{ marginLeft: '11px',fontSize :'20px' }}>{name}</p>
                 <p style={{ marginLeft: '12px',fontSize :'10px' }}>{info}</p>
             </div>
-            <p style={{ paddingLeft : '23px', fontFamily: 'BMJUA'  , margin : '0'}}>{src}</p>
+            <p style={{ paddingLeft : '23px', fontFamily: 'BMJUA'  , margin : '0',fontSize:'3vw'}}>{src}</p>
         </div> 
         </div>
     );
