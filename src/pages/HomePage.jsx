@@ -1,17 +1,20 @@
-import Button from '../components/Button';
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 export default function HomePage() {
   return (
+    
+    
     <div style={{ display: 'flex', justifyContent: 'colmun' }}>
       <div style={{ overflowY: 'auto', height: '100vh' }}>
         <div>
           <div
             style={{
               textAlign: 'center',
-              marginTop: '215px',
-              paddingLeft: '10%',
+              marginTop: '30%',
+              paddingLeft: '5%',
             }}
           >
             <img
@@ -21,8 +24,8 @@ export default function HomePage() {
             />
           </div>
 
-          <div style={{ marginTop: '180px' ,
-         paddingLeft: '10%',}}>
+          <div style={{ marginTop: '20%' ,
+         paddingLeft: '5%',}}>
             <img
               src="/img/date.png"
               alt="내 이미지"
@@ -37,20 +40,22 @@ export default function HomePage() {
               style={{ display: 'block', margin: '0 auto' }}
             />
           </div>
+          
 
           <div
             style={{
               margin: 'auto',
               marginTop: '20%',
-              
+              textAlign: 'center',
+              marginLeft: '5%',
             }}
           >
-            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between',}}>
               <button
                 style={{
                   width: '45%',
                   height: 108,
-                  marginLeft: '5%',
+                  
                   backgroundColor: '#FDF0EE',
                   border: 'none',
                   borderRadius: 15,
@@ -143,23 +148,146 @@ export default function HomePage() {
                 </Link>
               </button>
             </div>
+            </div>
 
-            <div style={{ display: 'flex',flex:'3'}}>
+        
+          
+          
+
+
+
+
             <Link
               to="https://regal-gelato-25faff.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: 'none' }}
             >
-              <button
+                  <div>
+                  <div style={{ display: 'flex',flex:'3', width: '100%', marginLeft: '5%'}}> 
+                <button
                 style={{
-                  width: '165%',
+                  width: '90%',
                   height: 108,
                   backgroundColor: '#FDF0EE',
                   border: 'none',
                   borderRadius: 15,
                   border: '1px black solid',
-                  marginLeft: '8%',
+                  
+                  marginTop: '20px',
+                  display: 'flex', flexDirection: 'column'
+                }}
+              >  
+                
+                <span
+                  style={{
+                   
+                    marginTop: '3%',
+                    marginLeft: '2%',
+                    color: 'black',
+                    fontSize: '22px',
+                    fontFamily: 'Arial, sans-serif',
+                    fontWeight: 'bold',
+                   
+                  }}
+                >
+                  유형 테스트
+                </span>
+                <span
+                  style={{
+                    
+                    
+                    marginLeft: '2%',
+                    color: 'black',
+                    fontSize: '15px',
+                    fontFamily: 'Arial, sans-serif',
+                    fontWeight: 'bold',
+                  
+                  }}
+                >
+                  나에게 꼭 맞는 동아리를 찾아봐!
+                </span>
+                <span
+                  style={{
+                
+                    
+                    marginLeft: '90%',
+                    color: 'black',
+                    fontSize: '30px',
+                    fontFamily: 'Arial, sans-serif',
+                    fontWeight: 'bold',
+                  }}
+                >
+                  😇
+                </span>
+              
+                
+              </button>
+              </div>
+          </div>
+                    </Link>
+
+
+
+          <div>
+          <div style={{ display: 'flex',  justifyContent: 'flex-end' , marginRight: '5%'}}> 
+                <button
+                style={{
+                  width: '45%',
+                  height: 67,
+                  backgroundColor: '#FDF0EE',
+                  border: 'none',
+                  borderRadius: 15,
+                  border: '1px black solid',
+                  
+                  marginTop: '5%',
+                }}
+              >
+                <Link to="/about" style={{ textDecoration: 'none' }}>
+                <span
+                  style={{
+                    
+                
+                    
+                    color: 'black',
+                    fontSize: '22px',
+                    fontFamily: 'Arial, sans-serif',
+                    fontWeight: 'bold',
+                  }}
+                >
+                  제작자
+                </span>
+                <span
+                  style={{
+                    
+                   
+                    paddingLeft: '20%',
+                    color: 'black',
+                    fontSize: '30px',
+                    fontFamily: 'Arial, sans-serif',
+                    fontWeight: 'bold',
+                  }}
+                >
+                  ‍🧑‍💻
+                </span>
+                </Link>
+                
+              </button>
+              </div>
+          </div>
+
+
+            {/* <div style={{ display: 'flex',flex:'3', width: '100%', marginLeft: '5%'}}> */}
+            
+              {/* <button
+                style={{
+                  width: '90%',
+                  height: 108,
+                  backgroundColor: '#FDF0EE',
+                  border: 'none',
+                  borderRadius: 15,
+                  border: '1px black solid',
+                  
                   marginTop: '20px',
                   display: 'flex', flexDirection: 'column'
                 }}
@@ -205,66 +333,13 @@ export default function HomePage() {
                 >
                   😇
                 </span>
-              </button>
-            </Link>
-                  </div>
+              </button> */}
+            {/* </Link> */}
+                  {/* </div> */}
 
 
 
-
-
-
-                  <div>
-                <button
-                style={{
-                  width: '40%',
-                  height: 67,
-                  backgroundColor: '#FDF0EE',
-                  border: 'none',
-                  borderRadius: 15,
-                  border: '1px black solid',
-                  marginLeft: '200px',
-                  marginTop: '20px',
-                }}
-              >
-                <Link to="/about" style={{ textDecoration: 'none' }}>
-                <span
-                  style={{
-                    
-                
-                    paddingLeft: '-5%',
-                    color: 'black',
-                    fontSize: '22px',
-                    fontFamily: 'Arial, sans-serif',
-                    fontWeight: 'bold',
-                  }}
-                >
-                  제작자
-                </span>
-                <span
-                  style={{
-                    
-                   
-                    paddingLeft: '20%',
-                    color: 'black',
-                    fontSize: '30px',
-                    fontFamily: 'Arial, sans-serif',
-                    fontWeight: 'bold',
-                  }}
-                >
-                  ‍🧑‍💻
-                </span>
-                </Link>
-                
-              </button>
-              </div>
-              
-
-
-         
-
-           
-          </div>
+          
         </div>
 
         <div
@@ -490,6 +565,32 @@ export default function HomePage() {
           >
             <img
               src="/club-5-6.png"
+              alt="버튼 이미지"
+              style={{ width: '20%', height: 75, borderRadius: 10 }}
+            />
+          </Link>
+
+          <Link
+            to="https://www.instagram.com/sku_40th_seoro/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none', marginLeft: '5%' }}
+          >
+            <img
+              src="/애니문.png"
+              alt="버튼 이미지"
+              style={{ width: '20%', height: 75, borderRadius: 10 }}
+            />
+          </Link>
+
+          <Link
+            to="https://www.instagram.com/skatcher_/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none', marginLeft: '5%' }}
+          >
+            <img
+              src="/스케쳐.jpeg"
               alt="버튼 이미지"
               style={{ width: '20%', height: 75, borderRadius: 10 }}
             />
