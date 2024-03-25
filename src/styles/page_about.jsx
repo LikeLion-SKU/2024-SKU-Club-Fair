@@ -10,11 +10,12 @@ export const BgAbout = styled.div`
         background-size: cover;
         background-attachment: fixed;
         h1{
-            font-family: 'LOTTERIADDAG', sans-serif;
+            font-family : Arial;
             font-size: 20px;
         }
         p{
             font-family: 'SUIT Variable', sans-serif;
+            word-break: keep-all;
         }
     }
 `;
@@ -28,7 +29,7 @@ export const Colla = styled.div`
         align-items: center;
         justify-content: center;    
         background-image: url('/colla.png');
-        background-size: 100% 100%;
+        background-size: cover;
         background-repeat: no-repeat;
     }
 `;
