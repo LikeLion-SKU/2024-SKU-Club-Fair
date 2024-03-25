@@ -3,7 +3,7 @@ import Sheet from 'react-modal-sheet';
 import styled from 'styled-components';
 
 import insta from '../../public/insta.png';
-import { ClubButton, SheetHeader } from '../styles/ClubList';
+import { ClubButton, Map, SheetHeader } from '../styles/ClubList';
 import { Link } from 'react-router-dom';
 
 const CustomSheet = styled(Sheet)`
@@ -35,19 +35,26 @@ export default function BoothList({
   sns,
   clubinfo,
   listShowHandler,
+  mapHandler,
+  value,
+  defaultvalue,
+  type,
 }) {
   const [isOpen, setOpen] = useState(false);
   const [clickButton, setClickButton] = useState(false);
-  function buttonClickHandler() {
+
+  function buttonClickHandler(e) {
     setClickButton(true);
     setOpen(true);
     listShowHandler();
+    mapHandler(value);
   }
 
   function modalControlHandler() {
     setOpen(false);
     setClickButton(false);
     listShowHandler();
+    mapHandler(defaultvalue);
   }
 
   return (
@@ -55,9 +62,17 @@ export default function BoothList({
       <ClubButton onClick={buttonClickHandler} $color={clickButton}>
         <div style={{ display: 'flex' }}>
           {/* <img src={img} style={{ width: '50px' }} /> */}
-          <p style={{ marginLeft: '10px', fontFamily: 'SUIT Variable' }}>
+          <p
+            style={{
+              marginLeft: '10px',
+              fontFamily: 'SUIT Variable',
+              color: 'black',
+              width: '40%',
+            }}
+          >
             {title}
           </p>
+          <p style={{ marginLeft: '30%' }}>{type}</p>
         </div>
       </ClubButton>
       <CustomSheet
@@ -82,6 +97,7 @@ export default function BoothList({
                 </div>
               </SheetHeader>
               <div style={{ margin: '10px 15px 20px 15px' }}>
+                <Map src={value} />
                 <div style={{ display: 'flex', marginBottom: '15px' }}>
                   <p
                     style={{

@@ -13,11 +13,19 @@ import { clubs } from '../../clubs';
 export default function Booth() {
   const [height, setHeight] = useState(null);
   const [list, setList] = useState(true);
+  const [mapControl, setMapControl] = useState(map);
   const componentRef = useRef(null);
 
   function listShowHandler() {
     setList((prev) => !prev);
-    console.log(list);
+  }
+
+  function mapHandler(value) {
+    setMapControl(value);
+  }
+
+  function mapShowHandler() {
+    return <Map src={mapControl} />;
   }
 
   useEffect(() => {
@@ -25,11 +33,11 @@ export default function Booth() {
       const h = componentRef.current.offsetHeight;
       setHeight(h);
     }
-  }, [height]);
+  }, []);
   return (
     <Container>
       <Header />
-      <Map src={map}></Map>
+      {mapShowHandler()}
       <ClubListWrapper ref={componentRef} $show={list}>
         <h3 style={{ fontFamily: 'LOTTERIADDAG' }}>동아리 목록</h3>
         <ButtonsWrapper>
@@ -46,6 +54,10 @@ export default function Booth() {
                 sns={prod.sns}
                 clubinfo={prod.clubinfo}
                 listShowHandler={listShowHandler}
+                mapHandler={mapHandler}
+                value={prod.map}
+                defaultvalue={map}
+                type={prod.type}
               />
             );
           })}
