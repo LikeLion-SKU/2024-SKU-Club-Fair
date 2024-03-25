@@ -22,7 +22,8 @@ export const clubs = [
     title: '멋쟁이사자처럼',
     type: '학술',
     img: likelion,
-    description: '아 제발 로또 1등당첨좀',
+    description:
+      '나만의 웹페이지를 만들고 싶거나, 상상만 했던 아이디어를 현실로 실현 할 수 있는 전국 최대 규모 IT창업 동아리 입니다',
     activity:
       '매주 1회 필참 파트별 트랙, 자율 스터디, 아이디어톤, 해커톤, 데모데이, 연합해커톤 등등 다양한 IT 주요활동을 경험 할 수 있습니다.',
     representatives: [
@@ -38,6 +39,7 @@ export const clubs = [
       },
     ],
     sns: '인스타그램 (@likelion_skuniv)',
+    snsLink: 'https://www.instagram.com/likelion_skuniv/',
     map: map1,
     clubinfo: {
       menu: [
@@ -88,6 +90,7 @@ export const clubs = [
       },
     ],
     sns: '인스타그램 (@sku_ccc)',
+    snsLink: 'https://www.instagram.com/sku_ccc/',
     map: map5,
     clubinfo: {
       menu: [
@@ -126,6 +129,7 @@ export const clubs = [
       },
     ],
     sns: '인스타그램 (@juksita_2024)',
+    snsLink: 'https://www.instagram.com/juksita_2024/',
     map: map12,
     clubinfo: {
       menu: [
@@ -172,6 +176,7 @@ export const clubs = [
       },
     ],
     sns: '인스타그램 (@sku_ivf)',
+    snsLink: 'https://www.instagram.com/sku_ivf/',
     map: map9,
     clubinfo: {
       menu: [
@@ -210,6 +215,7 @@ export const clubs = [
       },
     ],
     sns: '인스타그램 (@sku_pinthree_24)',
+    snsLink: 'https://www.instagram.com/sku_pinthree_24/',
     map: map6,
     clubinfo: {
       menu: [
@@ -260,6 +266,7 @@ export const clubs = [
       },
     ],
     sns: '인스타그램 (@sk_ubf)',
+    snsLink: 'https://www.instagram.com/sk_ubf/',
     map: map13,
     clubinfo: {
       menu: [
@@ -302,6 +309,7 @@ export const clubs = [
       },
     ],
     sns: '인스타그램 (@sku_workers)',
+    snsLink: 'https://www.instagram.com/sku_workers/',
     map: map3,
     clubinfo: {
       menu: [
@@ -346,6 +354,7 @@ export const clubs = [
       },
     ],
     sns: '인스타그램 (@sku.cclrs)',
+    snsLink: 'https://www.instagram.com/',
     map: map15,
     clubinfo: {
       menu: [
@@ -398,6 +407,7 @@ export const clubs = [
       },
     ],
     sns: '없음',
+    snsLink: 'https://www.instagram.com/',
     map: map2,
     clubinfo: {
       menu: [
@@ -451,6 +461,7 @@ export const clubs = [
       },
     ],
     sns: '없음',
+    snsLink: 'https://www.instagram.com/',
     map: map10,
     clubinfo: {
       menu: [
@@ -487,6 +498,7 @@ export const clubs = [
       },
     ],
     sns: '인스타그램 (@gramy._.official)',
+    snsLink: 'https://www.instagram.com/gramy._.official/',
     map: map14,
     clubinfo: {
       menu: [
@@ -543,6 +555,7 @@ export const clubs = [
       },
     ],
     sns: '인스타그램 (@oz_sku)',
+    snsLink: 'https://www.instagram.com/oz_sku/',
     map: map8,
     clubinfo: {
       menu: [
@@ -591,6 +604,7 @@ export const clubs = [
       },
     ],
     sns: '인스타그램 (@skatcher_official)',
+    snsLink: 'https://www.instagram.com/skatcher_official/',
     map: map11,
     clubinfo: {
       menu: [

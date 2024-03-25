@@ -58,6 +58,7 @@ export default function Booth() {
                 value={prod.map}
                 defaultvalue={map}
                 type={prod.type}
+                snsLink={prod.snsLink}
               />
             );
           })}
