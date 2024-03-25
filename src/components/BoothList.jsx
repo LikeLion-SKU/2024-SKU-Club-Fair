@@ -80,7 +80,7 @@ export default function BoothList({
         isOpen={isOpen}
         onClose={modalControlHandler}
         // snapPoints={[height]}
-        detent="content-height"
+        detent="full-height"
       >
         <Sheet.Container>
           <Sheet.Header />
