@@ -39,6 +39,7 @@ export default function BoothList({
   value,
   defaultvalue,
   type,
+  snsLink,
 }) {
   const [isOpen, setOpen] = useState(false);
   const [clickButton, setClickButton] = useState(false);
@@ -72,13 +73,14 @@ export default function BoothList({
           >
             {title}
           </p>
-          <p style={{ marginLeft: '30%' }}>{type}</p>
+          <p style={{ marginLeft: '30%', color: 'black' }}>{type}</p>
         </div>
       </ClubButton>
       <CustomSheet
         isOpen={isOpen}
         onClose={modalControlHandler}
-        snapPoints={[height]}
+        // snapPoints={[height]}
+        detent="content-height"
       >
         <Sheet.Container>
           <Sheet.Header />
@@ -181,6 +183,7 @@ export default function BoothList({
                         fontFamily: 'SUIT Variable',
                         fontWeight: 'bold',
                       }}
+                      to={snsLink}
                     >
                       SNS 구경가기
                     </Link>
