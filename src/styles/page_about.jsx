@@ -10,7 +10,7 @@ export const BgAbout = styled.div`
         background-size: cover;
         background-attachment: fixed;
         h1{
-            Arial;
+            font-family : Arial;
             font-size: 20px;
         }
         p{
