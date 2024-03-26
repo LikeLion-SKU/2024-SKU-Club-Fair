@@ -11,7 +11,9 @@ export const GlobalDiv = styled.div`
 export const GlobalHeaderContainer = styled.div`
   width: 100%;
   background-color: #eef0f300;
-  font-family: 'LOTTERIADDAG', sans-serif;
+  font-family: 'Black Han Sans';
+  font-weight: 400;
+  font-style: 'normal';
 `;
 
 export const GlobalHeader = styled.header`
