@@ -25,7 +25,7 @@ export default function About() {
         <InfoLine
           name="황현진"
           info="컴퓨터공학과 20"
-          src="알림제를 시작으로 다양한 활동을 보여드리겠습니다! 만관부!"
+          src="알림제를 시작으로 다양한 활동을 보여드리겠습니다! 많관부!"
           img={test}
         />
         <h1>DESIGN</h1>
