@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export default function HomePage() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', width:'100%'}}>
-      <div style={{ overflowY: 'auto', height: '100vh' }}>
+      <div style={{ height: '100vh' }}>
         <div>
           <div
             style={{
