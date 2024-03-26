@@ -12,8 +12,11 @@ const CustomSheet = styled(Sheet)`
     /* custom styles */
   }
   .react-modal-sheet-container {
-    background-color: rgba(255, 255, 255) !important;
-    fontfamily: 'SUIT Variable';
+    width: 50%;
+    @media screen and (max-width: 500px) {
+      background-color: rgba(255, 255, 255) !important;
+      fontfamily: 'SUIT Variable';
+    }
   }
   .react-modal-sheet-header {
     /* custom styles */
@@ -172,7 +175,13 @@ export default function BoothList({
                   >
                     부스컨텐츠
                   </p>
-                  <div style={{ textAlign: 'right', flex: '2' ,wordBreak: 'keep-all'}}>
+                  <div
+                    style={{
+                      textAlign: 'right',
+                      flex: '2',
+                      wordBreak: 'keep-all',
+                    }}
+                  >
                     <p style={{ fontFamily: 'SUIT Variable' }}>
                       {menu()}
                       {clubinfo.menu.map((prod) => {

@@ -10,6 +10,9 @@ export const Container = styled.div`
 `;
 
 export const Map = styled.img`
+  display: block;
+  width: 30%;
+  margin: 3% auto;
   @media screen and (max-width: 500px) {
     display: block;
     height: 40%;
@@ -19,6 +22,13 @@ export const Map = styled.img`
 `;
 
 export const ClubListWrapper = styled.div`
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 30%;
+  margin: auto;
+  visibility: ${({ $show }) => ($show ? 'visible' : 'hidden')};
+  & h3 {
+      text-align: center;
+    }
   @media screen and (max-width: 500px) {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 15px 15px 0 0;
@@ -31,6 +41,10 @@ export const ClubListWrapper = styled.div`
 `;
 
 export const ButtonsWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 40dvh;
   @media screen and (max-width: 500px) {
     display: flex;
     flex-direction: column;
@@ -45,6 +59,11 @@ export const ButtonWrapper = styled.div`
 `;
 
 export const ClubButton = styled.button`
+  width: 90%;
+  margin: 7px auto;
+  background-color: ${({ $color }) =>
+    $color ? '#E69696' : 'rgb(253, 240, 238)'};
+  font-family: 'SUIT Variable', sans-serif;
   @media screen and (max-width: 500px) {
     width: 90%;
     margin: 7px auto;

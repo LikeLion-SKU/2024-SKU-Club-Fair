@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
 export const GlobalDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+
   @media screen and (max-width: 500px) {
     height: calc(var(--vh, 1vh) * 100);
     display: flex;
@@ -17,6 +20,17 @@ export const GlobalHeaderContainer = styled.div`
 `;
 
 export const GlobalHeader = styled.header`
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1% auto;
+    width: 100%;
+    & li {
+      list-style: none;
+    }
+    & a {
+      text-decoration: none;
+      color: black;
   @media screen and (max-width: 500px) {
     flex-grow: 1;
     background-color: #eef0f3;
