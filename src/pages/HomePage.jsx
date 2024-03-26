@@ -14,7 +14,6 @@ export default function HomePage() {
             style={{
               textAlign: 'center',
               marginTop: '30%',
-              paddingLeft: '5%',
             }}
           >
             <img
@@ -24,16 +23,16 @@ export default function HomePage() {
             />
           </div>
 
-          <div style={{ marginTop: '20%' ,
-         paddingLeft: '5%',}}>
+          <div style={{ marginTop: '20%',
+                          }}>
             <img
               src="/img/DATE.svg"
               alt="내 이미지"
               style={{ display: 'block', margin: '0 auto' }}
             />
           </div>
-
-          <div style={{ marginTop: '100px' , paddingLeft: '10%',}}>
+          {/* 여기 수정 -현진- */}
+          <div style={{ marginTop: '100px',}}>
             <img
               src="/img/scroll.svg"
               alt="내 이미지"
@@ -41,21 +40,27 @@ export default function HomePage() {
             />
           </div>
           
-
           <div
             style={{
               margin: 'auto',
               marginTop: '20%',
               textAlign: 'center',
-              marginLeft: '5%',
+              display:'flex',
+              justifyContent:'center',
+              alignItems:'center',
             }}
           >
-            <div style={{ display: 'flex', justifyContent: 'space-between',}}>
+            <div style={{ 
+              display: 'flex', 
+              justifyContent: 'center', 
+              width:'100%', 
+              alignItems:'center'
+              }}>
               <button
                 style={{
                   width: '45%',
                   height: 108,
-                  
+                  marginRight : '2.5%',
                   backgroundColor: '#FDF0EE',
                   border: 'none',
                   borderRadius: 15,
@@ -110,8 +115,6 @@ export default function HomePage() {
                   border: 'none',
                   borderRadius: 15,
                   border: '1px black solid',
-                  marginRight: '15px',
-                  marginLeft: '5%',
                   boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.4)'
                  
                 }}
@@ -154,14 +157,7 @@ export default function HomePage() {
                 </Link>
               </button>
             </div>
-            </div>
-
-        
-          
-          
-
-
-
+          </div>
 
             <Link
               to="https://regal-gelato-25faff.netlify.app"
@@ -169,8 +165,8 @@ export default function HomePage() {
               rel="noopener noreferrer"
               style={{ textDecoration: 'none' }}
             >
-                  <div>
-                  <div style={{ display: 'flex',flex:'3', width: '100%', marginLeft: '5%'}}> 
+              <div>
+                <div style={{ display: 'flex',justifyContent:'center', width: '100%',}}> 
                 <button
                 style={{
                   width: '90%',
@@ -179,13 +175,11 @@ export default function HomePage() {
                   border: 'none',
                   borderRadius: 15,
                   border: '1px black solid',
-                  
                   marginTop: '20px',
                   display: 'flex', flexDirection: 'column',
                   boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.4)'
                 }}
               >  
-                
                 <span
                   style={{
                     marginTop: '3%',
@@ -201,8 +195,6 @@ export default function HomePage() {
                 </span>
                 <span
                   style={{
-                    
-                    
                     marginLeft: '2%',
                     color: 'black',
                     fontSize: '15px',
@@ -215,8 +207,6 @@ export default function HomePage() {
                 </span>
                 <span
                   style={{
-                
-                    
                     marginLeft: '87%',
                     color: 'black',
                     fontSize: '30px',
@@ -267,8 +257,6 @@ export default function HomePage() {
                 </span>
                 <span
                   style={{
-                    
-                   
                     paddingLeft: '6%',
                     color: 'black',
                     fontSize: '23px',
@@ -283,71 +271,6 @@ export default function HomePage() {
               </button>
               </div>
           </div>
-
-
-            {/* <div style={{ display: 'flex',flex:'3', width: '100%', marginLeft: '5%'}}> */}
-            
-              {/* <button
-                style={{
-                  width: '90%',
-                  height: 108,
-                  backgroundColor: '#FDF0EE',
-                  border: 'none',
-                  borderRadius: 15,
-                  border: '1px black solid',
-                  
-                  marginTop: '20px',
-                  display: 'flex', flexDirection: 'column'
-                }}
-              >
-                <span
-                  style={{
-                   
-                    marginTop: '3%',
-                    marginLeft: '2%',
-                    color: 'black',
-                    fontSize: '22px',
-                    fontFamily: 'Arial, sans-serif',
-                    fontWeight: 'bold',
-                   
-                  }}
-                >
-                  유형 테스트
-                </span>
-                <span
-                  style={{
-                    
-                    
-                    marginLeft: '2%',
-                    color: 'black',
-                    fontSize: '15px',
-                    fontFamily: 'Arial, sans-serif',
-                    fontWeight: 'bold',
-                  
-                  }}
-                >
-                  나에게 꼭 맞는 동아리를 찾아봐!
-                </span>
-                <span
-                  style={{
-                
-                    
-                    marginLeft: '90%',
-                    color: 'black',
-                    fontSize: '30px',
-                    fontFamily: 'Arial, sans-serif',
-                    fontWeight: 'bold',
-                  }}
-                >
-                  😇
-                </span>
-              </button> */}
-            {/* </Link> */}
-                  {/* </div> */}
-
-
-
-          
         </div>
 
         <div
@@ -386,8 +309,17 @@ export default function HomePage() {
             }}
           />
         </div>
+        {/* 여기가 동아리 로고 */}
+  <div style={{
+    display: 'flex',
+    flexDirection:'column',
+    alignContent:'center',
+    justifyContent:'center',
+    alignItems:'center',
+  }}>
 
-        <div style={{ paddingLeft: '5%', paddingTop: '20px'}}>
+        <div style={{
+          paddingTop: '20px'}}>
           <Link
             to="https://www.instagram.com/likelion_skuniv/"
             target="_blank"
@@ -424,7 +356,6 @@ export default function HomePage() {
               style={{ width: '20%', height: 75, borderRadius: 10 }}
             />
           </Link>
-
           <Link
             to="https://www.instagram.com/sk_ubf/"
             target="_blank"
@@ -438,10 +369,8 @@ export default function HomePage() {
             />
           </Link>
         </div>
-
-
-
-        <div style={{ marginLeft: '5%', marginTop: '20px' }}>
+        {/* 2번째 줄 */}
+        <div style={{ marginTop: '20px' }}>
           <Link
             to="https://www.instagram.com/sku_ccc/"
             target="_blank"
@@ -454,7 +383,6 @@ export default function HomePage() {
               style={{ width: '20%', height: 75, borderRadius: 10 }}
             />
           </Link>
-
           <Link
             to="https://www.instagram.com/sku_workers/"
             target="_blank"
@@ -492,11 +420,8 @@ export default function HomePage() {
             />
           </Link>
         </div>
-        
-
-
-
-        <div style={{ marginLeft: '5%', marginTop: '20px' }}>
+        {/* 세번째 줄 */}
+        <div style={{ marginTop: '20px' }}>
           <Link
             to="https://www.instagram.com/sdr.official_/"
             target="_blank"
@@ -509,7 +434,6 @@ export default function HomePage() {
               style={{ width: '20%', height: 75, borderRadius: 10 }}
             />
           </Link>
-
           <Link
             to="https://www.instagram.com/oz_sku/"
             target="_blank"
@@ -547,12 +471,8 @@ export default function HomePage() {
             />
           </Link>
         </div>
-
-
-
-
-
-        <div style={{ marginLeft: '5%', marginTop: '20px' , paddingBottom:'40px'}}>
+        {/* 네번째 줄 */}
+        <div style={{ marginTop: '20px', marginBottom:'40px'}}>
           <Link
             to="https://www.instagram.com/brandingclub_official/"
             target="_blank"
@@ -565,7 +485,6 @@ export default function HomePage() {
               style={{ width: '20%', height: 75, borderRadius: 10 }}
             />
           </Link>
-
           <Link
             to="https://www.instagram.com/sku_yeonji/"
             target="_blank"
@@ -578,20 +497,19 @@ export default function HomePage() {
               style={{ width: '20%', height: 75, borderRadius: 10 }}
             />
           </Link>
-
-          <Link
+          {/* 여기 애니문 들어가야되는데 여기 로고가 존나문제 */}
+          <Link 
             to="https://www.instagram.com/sku_40th_seoro/"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: 'none', marginLeft: '5%' }}
           >
             <img
-              src="/애니문.png"
+              src="/애니문.jpg"
               alt="버튼 이미지"
               style={{ width: '20%', height: 75, borderRadius: 10 }}
             />
           </Link>
-
           <Link
             to="https://www.instagram.com/skatcher_/"
             target="_blank"
@@ -604,10 +522,18 @@ export default function HomePage() {
               style={{ width: '20%', height: 75, borderRadius: 10 }}
             />
           </Link>
-          
         </div>
 
 
+          {/* 
+            <img
+              src="/애니문.png"
+              alt="버튼 이미지"
+              style={{ width: '20%', height: 75, borderRadius: 10 }}
+            />
+          </Link> */}
+          
+        </div>
       </div>
     </div>
   );
