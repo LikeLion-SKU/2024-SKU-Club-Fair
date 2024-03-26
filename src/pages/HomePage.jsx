@@ -310,7 +310,7 @@ export default function HomePage() {
             to="https://www.instagram.com/likelion_skuniv/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: 'none', marginLeft:'2.5%', marginRight: '2.5%'}}
+            style={{ textDecoration: 'none', marginLeft:'4%', marginRight: '2%'}}
           >
             <img
               src="/logologo.png"
@@ -322,7 +322,7 @@ export default function HomePage() {
             to="https://www.instagram.com/juksita_2024/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: 'none', marginRight: '2.5%' }}
+            style={{ textDecoration: 'none', marginRight: '2%' }}
           >
             <img
               src="/적시타로고.png"
@@ -334,7 +334,7 @@ export default function HomePage() {
             to="https://www.instagram.com/sku_pinthree_24/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: 'none', marginRight: '2.5%' }}
+            style={{ textDecoration: 'none', marginRight: '2%' }}
           >
             <img
               src="/핀쓰리로고.png"
@@ -346,7 +346,7 @@ export default function HomePage() {
             to="https://www.instagram.com/sk_ubf/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: 'none', marginRight: '2.5%' }}
+            style={{ textDecoration: 'none', marginRight: '2%' }}
           >
             <img
               src="/ubf로고.png"
@@ -361,7 +361,7 @@ export default function HomePage() {
             to="https://www.instagram.com/sku_ccc/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: 'none', marginLeft:'2.5%', marginRight: '2.5%' }}
+            style={{ textDecoration: 'none', marginLeft:'4%', marginRight: '2%' }}
           >
             <img
               src="/ccc.png"
@@ -373,7 +373,7 @@ export default function HomePage() {
             to="https://www.instagram.com/sku_workers/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: 'none', marginRight: '2.5%' }}
+            style={{ textDecoration: 'none', marginRight: '2%' }}
           >
             <img
               src="/club-0-1.png"
@@ -385,7 +385,7 @@ export default function HomePage() {
             to="https://www.instagram.com/gramy._.official/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: 'none', marginRight: '2.5%' }}
+            style={{ textDecoration: 'none', marginRight: '2%' }}
           >
             <img
               src="/club-0-2.png"
@@ -397,7 +397,7 @@ export default function HomePage() {
             to="https://www.instagram.com/udream.sku/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: 'none', marginRight: '2.5%' }}
+            style={{ textDecoration: 'none', marginRight: '2%' }}
           >
             <img
               src="/club-0-3.png"
@@ -412,7 +412,7 @@ export default function HomePage() {
             to="https://www.instagram.com/sdr.official_/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: 'none', marginLeft:'2.5%', marginRight: '2.5%' }}
+            style={{ textDecoration: 'none', marginLeft:'4%', marginRight: '2%' }}
           >
             <img
               src="/club-0-4.png"
@@ -424,7 +424,7 @@ export default function HomePage() {
             to="https://www.instagram.com/oz_sku/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: 'none', marginRight: '2.5%' }}
+            style={{ textDecoration: 'none', marginRight: '2%' }}
           >
             <img
               src="/club-3-1.png"
@@ -436,7 +436,7 @@ export default function HomePage() {
             to="https://www.instagram.com/sku_ivf/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: 'none', marginRight: '2.5%' }}
+            style={{ textDecoration: 'none', marginRight: '2%' }}
           >
             <img
               src="/club-4-2.png"
@@ -448,7 +448,7 @@ export default function HomePage() {
             to="https://www.instagram.com/sku_bulls/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: 'none', marginRight: '2.5%' }}
+            style={{ textDecoration: 'none', marginRight: '2%' }}
           >
             <img
              src="/club-5-.png"
@@ -463,7 +463,7 @@ export default function HomePage() {
             to="https://www.instagram.com/brandingclub_official/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: 'none', marginLeft:'2.5%', marginRight: '2.5%'}}
+            style={{ textDecoration: 'none', marginLeft:'4%', marginRight: '2%'}}
           >
             <img
               src="/club-5-2.png"
@@ -475,7 +475,7 @@ export default function HomePage() {
             to="https://www.instagram.com/sku_yeonji/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: 'none', marginRight: '2.5%' }}
+            style={{ textDecoration: 'none', marginRight: '2%' }}
           >
             <img
               src="/club-5-6.png"
@@ -487,7 +487,7 @@ export default function HomePage() {
             to="https://www.instagram.com/sku_40th_seoro/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: 'none', marginRight: '2.5%' }}
+            style={{ textDecoration: 'none', marginRight: '2%' }}
           >
             <img
               src="/애니문.jpg"
@@ -499,7 +499,7 @@ export default function HomePage() {
             to="https://www.instagram.com/skatcher_/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: 'none', marginRight: '2.5%' }}
+            style={{ textDecoration: 'none', marginRight: '2%' }}
           >
             <img
               src="/스케쳐.jpeg"
