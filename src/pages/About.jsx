@@ -2,7 +2,6 @@ import Header from '../components/Header';
 import { BgAbout, Colla } from '../styles/page_about';
 import InfoLine from '../components/InfoLine';
 import test from '/logo_lion.png';
-import test2 from '/test1.jpg';
 import bg from '/bg_info.png';
 import { Container } from '../styles/ClubList';
 import center from '/logo_center.png';
@@ -33,7 +32,7 @@ export default function About() {
           name="서현은"
           info="컴퓨터공학과 22"
           src="행복하세요"
-          img={'/ME.png'}
+          img={test}
         />
         <InfoLine
           name="민동명"
