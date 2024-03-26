@@ -592,7 +592,7 @@ export default function HomePage() {
             style={{ marginTop: "20px", marginBottom: "40px", width: "100%" }}
           >
             <Link
-              to="https://www.instagram.com/brandingclub_official/"
+              to="https://www.instagram.com/sku.cclrs/"
               target="_blank"
               rel="noopener noreferrer"
               style={{
