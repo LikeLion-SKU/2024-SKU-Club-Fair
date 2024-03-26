@@ -130,7 +130,7 @@ export const clubs = [
     ],
     sns: '인스타그램 (@juksita_2024)',
     snsLink: 'https://www.instagram.com/juksita_2024/',
-    map: map12,
+    map: map13,
     clubinfo: {
       menu: [
         {
@@ -177,7 +177,7 @@ export const clubs = [
     ],
     sns: '인스타그램 (@sku_ivf)',
     snsLink: 'https://www.instagram.com/sku_ivf/',
-    map: map9,
+    map: map8,
     clubinfo: {
       menu: [
         {
@@ -216,7 +216,7 @@ export const clubs = [
     ],
     sns: '인스타그램 (@sku_pinthree_24)',
     snsLink: 'https://www.instagram.com/sku_pinthree_24/',
-    map: map6,
+    map: map15,
     clubinfo: {
       menu: [
         {
@@ -267,7 +267,7 @@ export const clubs = [
     ],
     sns: '인스타그램 (@sk_ubf)',
     snsLink: 'https://www.instagram.com/sk_ubf/',
-    map: map13,
+    map: map11,
     clubinfo: {
       menu: [
         {
@@ -355,7 +355,7 @@ export const clubs = [
     ],
     sns: '인스타그램 (@sku.cclrs)',
     snsLink: 'https://www.instagram.com/',
-    map: map15,
+    map: map14,
     clubinfo: {
       menu: [
         {
@@ -462,7 +462,7 @@ export const clubs = [
     ],
     sns: '없음',
     snsLink: 'https://www.instagram.com/',
-    map: map10,
+    map: map9,
     clubinfo: {
       menu: [
         {
@@ -499,7 +499,7 @@ export const clubs = [
     ],
     sns: '인스타그램 (@gramy._.official)',
     snsLink: 'https://www.instagram.com/gramy._.official/',
-    map: map14,
+    map: map12,
     clubinfo: {
       menu: [
         {
@@ -556,7 +556,7 @@ export const clubs = [
     ],
     sns: '인스타그램 (@oz_sku)',
     snsLink: 'https://www.instagram.com/oz_sku/',
-    map: map8,
+    map: map7,
     clubinfo: {
       menu: [
         {
@@ -605,7 +605,7 @@ export const clubs = [
     ],
     sns: '인스타그램 (@skatcher_official)',
     snsLink: 'https://www.instagram.com/skatcher_official/',
-    map: map11,
+    map: map10,
     clubinfo: {
       menu: [
         {
@@ -624,6 +624,51 @@ export const clubs = [
         },
         {
           name: '사진 관련 퀴즈.',
+          price: '0원',
+        },
+      ],
+    },
+  },
+  {
+    id: '14',
+    title: '유드림',
+    type: '전시창작',
+    img: test1,
+    description: `여러분의 꿈의 무대를 펼칠 수 있는 곳 뮤지컬에 대한 열정이 있는 분들 모두 환영합니다.`,
+    activity: `매주 목요일 동아리 정기모임,학교 축제 및 동아리 알림제 공연, 단합회 및 MT, 동아리 내 친목활동, 정기공연`,
+    representatives: [
+      {
+        part: '대표',
+        name: '김채현',
+        phone: '010-3671-4818',
+      },
+      {
+        part: '부대표',
+        name: '서승기',
+        phone: '010-2941-3408',
+      },
+    ],
+    sns: '인스타그램 (@skatcher_official)',
+    snsLink: 'https://www.instagram.com/skatcher_official/',
+    map: map4,
+    clubinfo: {
+      menu: [
+        {
+          name: '간식.',
+          price: '0',
+        },
+      ],
+      game: [
+        {
+          name: '데시벨게임,',
+          price: '0원',
+        },
+        {
+          name: '뮤지컬 퀴즈,',
+          price: '0원',
+        },
+        {
+          name: '추억의 뽑기판.',
           price: '0원',
         },
       ],

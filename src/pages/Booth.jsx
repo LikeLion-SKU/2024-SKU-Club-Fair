@@ -5,7 +5,7 @@ import {
   Container,
   Map,
 } from '../styles/ClubList';
-import map from '../../public/map.svg';
+import map from '../../public/map/0.svg';
 import Header from '../components/Header';
 import BoothList from '../components/BoothList';
 import { clubs } from '../../clubs';
