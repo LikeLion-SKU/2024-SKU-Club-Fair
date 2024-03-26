@@ -30,7 +30,7 @@ export default function Header() {
               };
             }}
           >
-            공연 정보
+            공연정보
           </NavLink>
         </li>
         <li>
@@ -44,7 +44,7 @@ export default function Header() {
               };
             }}
           >
-            부스 소개
+            부스소개
           </NavLink>
         </li>
         <li>

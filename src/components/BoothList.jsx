@@ -128,11 +128,11 @@ export default function BoothList({
                   >
                     주요 활동
                   </p>
-                  <div style={{ textAlign: 'center', flex: '2' }}>
+                  <div style={{ textAlign: 'center', flex: '3' }}>
                     <p
                       style={{
                         fontFamily: 'SUIT Variable',
-                        textAlign: 'right',
+                        textAlign: 'justify',
                       }}
                     >
                       {activity}
@@ -172,7 +172,7 @@ export default function BoothList({
                   >
                     부스컨텐츠
                   </p>
-                  <div style={{ textAlign: 'right', flex: '2' }}>
+                  <div style={{ textAlign: 'right', flex: '2' ,wordBreak: 'keep-all'}}>
                     <p style={{ fontFamily: 'SUIT Variable' }}>
                       {menu()}
                       {clubinfo.menu.map((prod) => {

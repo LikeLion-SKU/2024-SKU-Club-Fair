@@ -31,14 +31,14 @@ export default function InfoLine({ name, src, img, info }) {
               clipPath: 'circle(50%)',
             }}
           />
-          <p style={{ marginLeft: '11px', fontSize: '20px' }}>{name}</p>
-          <p style={{ marginLeft: '12px', fontSize: '10px' }}>{info}</p>
+          <p style={{ marginLeft: '11px', fontSize: '20px', fontFamily: 'SUIT Variable', fontWeight: 'bold' }}>{name}</p>
+          <p style={{ marginLeft: '10px', fontSize: '10px' }}>{info}</p>
         </div>
         <p
           style={{
-            paddingLeft: '20px',
+            paddingLeft: '69px',
             fontFamily: 'BMJUA',
-            margin: '0',
+            margin: '2px',
             fontSize: '3vw',
           }}
         >

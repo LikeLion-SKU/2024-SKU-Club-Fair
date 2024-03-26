@@ -18,7 +18,7 @@ export default function HomePage() {
             }}
           >
             <img
-              src="/img/title.png"
+              src="/img/title_modified.svg"
               alt="내 이미지"
               style={{ display: 'block', margin: '0 auto' }}
             />
@@ -27,7 +27,7 @@ export default function HomePage() {
           <div style={{ marginTop: '20%' ,
          paddingLeft: '5%',}}>
             <img
-              src="/img/date.png"
+              src="/img/DATE.svg"
               alt="내 이미지"
               style={{ display: 'block', margin: '0 auto' }}
             />
@@ -35,7 +35,7 @@ export default function HomePage() {
 
           <div style={{ marginTop: '100px' , paddingLeft: '10%',}}>
             <img
-              src="/img/scroll.png"
+              src="/img/scroll.svg"
               alt="내 이미지"
               style={{ display: 'block', margin: '0 auto' }}
             />
@@ -60,6 +60,7 @@ export default function HomePage() {
                   border: 'none',
                   borderRadius: 15,
                   border: '1px black solid',
+                  boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.4)'
                 }}
               >
                 <Link to="/booth" style={{ textDecoration: 'none' }}>
@@ -69,8 +70,9 @@ export default function HomePage() {
                       display: 'block',
                       color: 'black',
                       fontSize: '22px',
-                      fontFamily: 'Arial, sans-serif',
-                      fontWeight: 'bold',
+                      fontFamily: "Black Han Sans",
+                      fontWeight: 400,
+                      fontStyle: 'normal',
                     }}
                   >
                     부스소개
@@ -82,8 +84,9 @@ export default function HomePage() {
                       display: 'block',
                       color: 'black',
                       fontSize: '15px',
-                      fontFamily: 'Arial, sans-serif',
+                      fontFamily: 'SUIT Varaiable',
                       fontWeight: 'bold',
+                      wordBreak: 'keep-all'
                     }}
                   >
                     각 부스별 위치 확인
@@ -94,7 +97,7 @@ export default function HomePage() {
                       fontSize: '30px',
                     }}
                   >
-                    ⛺️
+                    🕹️️
                   </span>
                 </Link>
               </button>
@@ -109,6 +112,7 @@ export default function HomePage() {
                   border: '1px black solid',
                   marginRight: '15px',
                   marginLeft: '5%',
+                  boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.4)'
                  
                 }}
               >
@@ -119,8 +123,9 @@ export default function HomePage() {
                       display: 'block',
                       color: 'black',
                       fontSize: '22px',
-                      fontFamily: 'Arial, sans-serif',
-                      fontWeight: 'bold',
+                      fontFamily: "Black Han Sans",
+                      fontWeight: 400,
+                      fontStyle: 'normal',
                     }}
                   >
                     운영시간
@@ -131,8 +136,9 @@ export default function HomePage() {
                       display: 'block',
                       color: 'black',
                       fontSize: '15px',
-                      fontFamily: 'Arial, sans-serif',
+                      fontFamily: 'SUIT Varaiable',
                       fontWeight: 'bold',
+                      wordBreak: 'keep-all',
                     }}
                   >
                     행사 일정 안내
@@ -175,20 +181,20 @@ export default function HomePage() {
                   border: '1px black solid',
                   
                   marginTop: '20px',
-                  display: 'flex', flexDirection: 'column'
+                  display: 'flex', flexDirection: 'column',
+                  boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.4)'
                 }}
               >  
                 
                 <span
                   style={{
-                   
                     marginTop: '3%',
                     marginLeft: '2%',
                     color: 'black',
                     fontSize: '22px',
-                    fontFamily: 'Arial, sans-serif',
-                    fontWeight: 'bold',
-                   
+                    fontFamily: "Black Han Sans",
+                    fontWeight: 400,
+                    fontStyle: 'normal',
                   }}
                 >
                   유형 테스트
@@ -200,9 +206,9 @@ export default function HomePage() {
                     marginLeft: '2%',
                     color: 'black',
                     fontSize: '15px',
-                    fontFamily: 'Arial, sans-serif',
+                    fontFamily: 'SUIT Varaiable',
                     fontWeight: 'bold',
-                  
+                    wordBreak: 'keep-all',
                   }}
                 >
                   나에게 꼭 맞는 동아리를 찾아봐!
@@ -211,14 +217,14 @@ export default function HomePage() {
                   style={{
                 
                     
-                    marginLeft: '90%',
+                    marginLeft: '87%',
                     color: 'black',
                     fontSize: '30px',
-                    fontFamily: 'Arial, sans-serif',
+                    fontFamily: 'SUIT Varaiable',
                     fontWeight: 'bold',
                   }}
                 >
-                  😇
+                  🧐
                 </span>
               
                 
@@ -241,6 +247,7 @@ export default function HomePage() {
                   border: '1px black solid',
                   
                   marginTop: '5%',
+                  boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.4)'
                 }}
               >
                 <Link to="/about" style={{ textDecoration: 'none' }}>
@@ -250,25 +257,26 @@ export default function HomePage() {
                 
                     
                     color: 'black',
-                    fontSize: '22px',
-                    fontFamily: 'Arial, sans-serif',
-                    fontWeight: 'bold',
+                    fontSize: '21px',
+                    fontFamily: "Black Han Sans",
+                    fontWeight: 400,
+                    fontStyle: 'normal',
                   }}
                 >
-                  제작자
+                  ABOUT
                 </span>
                 <span
                   style={{
                     
                    
-                    paddingLeft: '20%',
+                    paddingLeft: '6%',
                     color: 'black',
-                    fontSize: '30px',
+                    fontSize: '23px',
                     fontFamily: 'Arial, sans-serif',
                     fontWeight: 'bold',
                   }}
                 >
-                  ‍🧑‍💻
+                  ‍💻
                 </span>
                 </Link>
                 
@@ -353,12 +361,12 @@ export default function HomePage() {
         >
           <div
             style={{
-              left: 10,
+              left: 9,
               top: 9,
               position: 'absolute',
               color: '#45392F',
               color: 'black',
-              fontSize: '18px',
+              fontSize: '16px',
               fontFamily: 'Arial, sans-serif',
               fontWeight: 'bold',
             }}
@@ -369,6 +377,7 @@ export default function HomePage() {
             style={{
               width: 133,
               height: 36,
+              backgroundColor: 'rgba(255, 243, 238, 0.7)',
               left: 0,
               top: 0,
             
@@ -378,17 +387,17 @@ export default function HomePage() {
           />
         </div>
 
-        <div style={{ paddingLeft: '5%', paddingTop: '20px' }}>
+        <div style={{ paddingLeft: '5%', paddingTop: '20px'}}>
           <Link
             to="https://www.instagram.com/likelion_skuniv/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: 'none', marginRight: '5%' }}
+            style={{ textDecoration: 'none', marginRight: '5%'}}
           >
             <img
-              src="/멋사로고.png"
+              src="/logologo.png"
               alt="버튼 이미지"
-              style={{ width: '20%', height: 75, borderRadius: 10 }}
+              style={{ width: '20%', height: 80, borderRadius: 10 }}
             />
           </Link>
           <Link
@@ -543,7 +552,7 @@ export default function HomePage() {
 
 
 
-        <div style={{ marginLeft: '5%', marginTop: '20px' }}>
+        <div style={{ marginLeft: '5%', marginTop: '20px' , paddingBottom:'40px'}}>
           <Link
             to="https://www.instagram.com/brandingclub_official/"
             target="_blank"

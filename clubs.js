@@ -507,15 +507,15 @@ export const clubs = [
           price: '0원',
         },
         {
-          name: '청포도 에이드',
+          name: '청포도에이드',
           price: '0원',
         },
         {
-          name: '레몬 에이드',
+          name: '레몬에이드',
           price: '0원',
         },
         {
-          name: '바나나 우유',
+          name: '바나나우유',
           price: '0원',
         },
       ],

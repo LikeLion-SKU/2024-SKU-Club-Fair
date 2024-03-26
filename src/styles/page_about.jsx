@@ -10,8 +10,9 @@ export const BgAbout = styled.div`
         background-size: cover;
         background-attachment: fixed;
         h1{
-            font-family : Arial;
-            font-size: 20px;
+            font-family: "Black Han Sans",
+            font-weight: 400,
+            font-style: 'normal',
         }
         p{
             font-family: 'SUIT Variable', sans-serif;
@@ -28,7 +29,7 @@ export const Colla = styled.div`
         flex-direction: column;
         align-items: center;
         justify-content: center;    
-        background-image: url('/colla.png');
+        background-image: url('/collabo.svg');
         background-size: cover;
         background-repeat: no-repeat;
     }
