@@ -7,6 +7,7 @@ export default function InfoLine({ name, src, img, info }) {
           flexDirection: 'column',
           width: '100%',
           height: '90px',
+          paddingTop : '5px',
           justifyContent: 'center',
           backgroundImage: "url('/box_about.png')",
           backgroundSize: '100% 100%',

@@ -26,13 +26,13 @@ export default function About() {
           name="황현진"
           info="컴퓨터공학과 20"
           src="알림제를 시작으로 다양한 활동을 보여드리겠습니다! 만관부!"
-          img={center}
+          img={test}
         />
         <h1>DESIGN</h1>
         <InfoLine
           name="서현은"
           info="컴퓨터공학과 22"
-          src="깔깔.."
+          src="행복하세요"
           img={'/ME.png'}
         />
         <InfoLine
