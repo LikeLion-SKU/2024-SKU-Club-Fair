@@ -54,11 +54,11 @@ export const clubs = [
       ],
       game: [
         {
-          name: '동아리 유형 테스트',
+          name: '동아리 유형 테스트,',
           price: '0원',
         },
         {
-          name: '운영진과 타자대결',
+          name: '운영진과 타자대결,',
           price: '0원',
         },
         {
@@ -144,7 +144,7 @@ export const clubs = [
       ],
       game: [
         {
-          name: '페펙트 피쳐',
+          name: '페펙트 피쳐,',
           price: '1000원',
         },
         {
@@ -226,15 +226,15 @@ export const clubs = [
       ],
       game: [
         {
-          name: '미니 볼링 게임',
+          name: '미니 볼링 게임,',
           price: '0원',
         },
         {
-          name: '스플릿 메이드 도전',
+          name: '스플릿 메이드 도전,',
           price: '0원',
         },
         {
-          name: '볼링 퀴즈',
+          name: '볼링 퀴즈,',
           price: '0원',
         },
         {
@@ -277,7 +277,7 @@ export const clubs = [
       ],
       game: [
         {
-          name: '달고나 및 비즈 만들기',
+          name: '달고나 및 비즈 만들기,',
           price: '0원',
         },
         {
@@ -324,7 +324,7 @@ export const clubs = [
       ],
       game: [
         {
-          name: '전주 1초 듣고 노래 맞히기',
+          name: '전주 1초 듣고 노래 맞히기,',
           price: '0원',
         },
         {
@@ -377,7 +377,7 @@ export const clubs = [
       ],
       game: [
         {
-          name: '법률 퀴즈',
+          name: '법률 퀴즈,',
           price: '0원',
         },
         {
@@ -418,11 +418,11 @@ export const clubs = [
       ],
       game: [
         {
-          name: '간단한 뽑기행사',
+          name: '간단한 뽑기행사,',
           price: '0원',
         },
         {
-          name: '코스 체험',
+          name: '코스 체험.',
           price: '0원',
         },
         {
@@ -521,11 +521,11 @@ export const clubs = [
       ],
       game: [
         {
-          name: '연도별 노래 맞추기',
+          name: '연도별 노래 맞추기,',
           price: '0원',
         },
         {
-          name: '랜덤 퀴즈',
+          name: '랜덤 퀴즈,',
           price: '0원',
         },
         {
@@ -566,15 +566,15 @@ export const clubs = [
       ],
       game: [
         {
-          name: '보드 대여및 강습',
+          name: '보드 대여및 강습,',
           price: '0원',
         },
         {
-          name: '뽑기 이벤트',
+          name: '뽑기 이벤트,',
           price: '0원',
         },
         {
-          name: '인스타 팔로우 이벤트',
+          name: '인스타 팔로우 이벤트,',
           price: '0원',
         },
         {
@@ -619,7 +619,7 @@ export const clubs = [
       ],
       game: [
         {
-          name: '무료 스냅 사진 촬영',
+          name: '무료 스냅 사진 촬영,',
           price: '0원',
         },
         {

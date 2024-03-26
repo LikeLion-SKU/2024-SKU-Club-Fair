@@ -188,7 +188,6 @@ export default function BoothList({
                         if (prod.name === '없음') {
                           return;
                         } else {
-                          let menu;
                           return `${prod.name} `;
                         }
                       })}
@@ -196,7 +195,7 @@ export default function BoothList({
                     <p style={{ fontFamily: 'SUIT Variable' }}>
                       활동 :
                       {clubinfo.game.map((prod) => {
-                        return ` ${prod.name}, `;
+                        return ` ${prod.name} `;
                       })}
                     </p>
                   </div>
