@@ -8,7 +8,7 @@ export default function Schedule() {
     return (
         <BgSchedule>
             <Header />
-            <h1>MARCH 27</h1>
+            <h1>MARCH 28</h1>
             <ScheduleBox>
             {scheduleInfo.map((prod, index) => (
                 <>
