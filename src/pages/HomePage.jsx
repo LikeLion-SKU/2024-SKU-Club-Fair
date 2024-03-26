@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     
     
-    <div style={{ display: 'flex', justifyContent: 'colmun' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', width:'100%'}}>
       <div style={{ overflowY: 'auto', height: '100vh' }}>
         <div>
           <div
@@ -23,8 +23,7 @@ export default function HomePage() {
             />
           </div>
 
-          <div style={{ marginTop: '20%',
-                          }}>
+          <div style={{ marginTop: '20%', }}>
             <img
               src="/img/DATE.svg"
               alt="내 이미지"
@@ -216,15 +215,10 @@ export default function HomePage() {
                 >
                   🧐
                 </span>
-              
-                
               </button>
-              </div>
+            </div>
           </div>
-                    </Link>
-
-
-
+          </Link>
           <div>
           <div style={{ display: 'flex',  justifyContent: 'flex-end' , marginRight: '5%'}}> 
                 <button
@@ -309,15 +303,13 @@ export default function HomePage() {
             }}
           />
         </div>
-        {/* 여기가 동아리 로고 */}
+        {/* 여기가 동아리 로고  DIV 제일큰거 밖에꺼*/}
   <div style={{
     display: 'flex',
     flexDirection:'column',
-    alignContent:'center',
     justifyContent:'center',
     alignItems:'center',
   }}>
-
         <div style={{
           paddingTop: '20px'}}>
           <Link
@@ -497,7 +489,6 @@ export default function HomePage() {
               style={{ width: '20%', height: 75, borderRadius: 10 }}
             />
           </Link>
-          {/* 여기 애니문 들어가야되는데 여기 로고가 존나문제 */}
           <Link 
             to="https://www.instagram.com/sku_40th_seoro/"
             target="_blank"
@@ -523,16 +514,6 @@ export default function HomePage() {
             />
           </Link>
         </div>
-
-
-          {/* 
-            <img
-              src="/애니문.png"
-              alt="버튼 이미지"
-              style={{ width: '20%', height: 75, borderRadius: 10 }}
-            />
-          </Link> */}
-          
         </div>
       </div>
     </div>
