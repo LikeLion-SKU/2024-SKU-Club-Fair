@@ -25,7 +25,7 @@ export default function About() {
         <InfoLine
           name="황현진"
           info="컴퓨터공학과 20"
-          src="내 이름은 황현진"
+          src="알림제를 시작으로 다양한 활동을 보여드리겠습니다! 만관부!"
           img={center}
         />
         <h1>DESIGN</h1>
@@ -38,14 +38,14 @@ export default function About() {
         <InfoLine
           name="민동명"
           info="컴퓨터공학과 22"
-          src="내 이름은 민동명"
+          src="사랑한다 동기들아!"
           img={test}
         />
         <h1>DEVELOPERS</h1>
         <InfoLine
           name="유창호"
           info="컴퓨터공학과 20"
-          src="내 이름은 유창호"
+          src="프로젝트 참여한 모든분들 고생하셨고 이 페이지 보는 모든 분들 올해 잘되시길"
           img={test}
         />
         <InfoLine
@@ -57,7 +57,7 @@ export default function About() {
         <InfoLine
           name="김효중"
           info="컴퓨터공학과 19"
-          src="내 이름은 김효중"
+          src="남에겐 작게 보이지만 내겐 큰 한 걸음"
           img={test}
         />
       </BgAbout>
