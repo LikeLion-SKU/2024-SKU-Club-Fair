@@ -62,7 +62,7 @@ export const clubs = [
           price: '0원',
         },
         {
-          name: '그림 퀴즈',
+          name: '그림 퀴즈.',
           price: '0원',
         },
       ],
@@ -101,7 +101,7 @@ export const clubs = [
       ],
       game: [
         {
-          name: '더 포 설문조사',
+          name: '더 포 설문조사.',
           price: '0원',
         },
       ],
@@ -148,7 +148,7 @@ export const clubs = [
           price: '1000원',
         },
         {
-          name: '스피드킹',
+          name: '스피드킹.',
           price: '1000원',
         },
       ],
@@ -187,7 +187,7 @@ export const clubs = [
       ],
       game: [
         {
-          name: 'Q&A세션',
+          name: 'Q&A세션.',
           price: '0원',
         },
       ],
@@ -238,7 +238,7 @@ export const clubs = [
           price: '0원',
         },
         {
-          name: '볼링 용품 전시',
+          name: '볼링 용품 전시.',
           price: '0원',
         },
       ],
@@ -281,7 +281,7 @@ export const clubs = [
           price: '0원',
         },
         {
-          name: '설문조사',
+          name: '설문조사.',
           price: '0원',
         },
       ],
@@ -328,7 +328,7 @@ export const clubs = [
           price: '0원',
         },
         {
-          name: '피아노 음계 맞히기',
+          name: '피아노 음계 맞히기.',
           price: '0원',
         },
       ],
@@ -381,7 +381,7 @@ export const clubs = [
           price: '0원',
         },
         {
-          name: '민사 소개팅',
+          name: '민사 소개팅.',
           price: '0원',
         },
       ],
@@ -422,11 +422,11 @@ export const clubs = [
           price: '0원',
         },
         {
-          name: '코스 체험.',
+          name: '코스 체험,',
           price: '0원',
         },
         {
-          name: '운세 타로',
+          name: '운세 타로.',
           price: '0원',
         },
       ],
@@ -472,7 +472,7 @@ export const clubs = [
       ],
       game: [
         {
-          name: '2M 퍼팅 홀컵에 넣기',
+          name: '2M 퍼팅 홀컵에 넣기.',
           price: '0원',
         },
       ],
@@ -529,7 +529,7 @@ export const clubs = [
           price: '0원',
         },
         {
-          name: '인스타 팔로우 이벤트',
+          name: '인스타 팔로우 이벤트.',
           price: '0원',
         },
       ],
@@ -578,7 +578,7 @@ export const clubs = [
           price: '0원',
         },
         {
-          name: '보드 컬링',
+          name: '보드 컬링.',
           price: '0원',
         },
       ],
@@ -623,7 +623,7 @@ export const clubs = [
           price: '0원',
         },
         {
-          name: '사진 관련 퀴즈',
+          name: '사진 관련 퀴즈.',
           price: '0원',
         },
       ],
