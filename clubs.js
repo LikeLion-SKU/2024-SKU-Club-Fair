@@ -456,7 +456,7 @@ export const clubs = [
       },
       {
         part: '부대표',
-        name: '이지성',
+        name: '조나영',
         phone: '010-2995-1485',
       },
     ],
